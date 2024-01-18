@@ -1,14 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
-import RadiusBackground from "@/assets/HomePage/FeatureProductsRadiusTop.svg";
-import Tickmark from "@/assets/SatelliteDownlink/tickMark.svg";
-import Football from "@/assets/OTTPlatform/Football.png";
+// import RadiusBackground from "@/assets/HomePage/FeatureProductsRadiusTop.svg";
+// import Tickmark from "@/assets/SatelliteDownlink/tickMark.svg";
+// import Football from "@/assets/OTTPlatform/Football.png";
 import { OTTPlatformArray } from "@/constants/OTTPlatformArray";
 import DiscoveryCall from "@/components/desktop/DiscoveryCall";
 import SeamlessCoverageForm from "@/components/desktop/CDN/SeamlessCoverageForm";
 import Brands from "@/components/desktop/Brands";
-import SetTopBox from "@/assets/OTTPlatform/SetTopBox.png";
+// import SetTopBox from "@/assets/OTTPlatform/SetTopBox.png";
 
 const OTTPlatformAudience = [
 	{
@@ -59,21 +59,21 @@ const OTTPlatform = () => {
 						</Link>
 					</div>
 				</div>
-				<Image
+				{/* <Image
 					src={RadiusBackground}
 					alt="Curved Background"
 					className="w-full absolute bottom-[-1px] transform rotate-0 h-[70px] lg:h-32 "
-				></Image>
+				></Image> */}
 			</div>
 			<div className="boxLayout mx-auto py-24 flex justify-between gap-10">
 				<div className="flex flex-col gap-5">
 					<div className="flex gap-5 items-start">
-						<Image
+						{/* <Image
 							src={Tickmark}
 							alt="TickMark"
 							className="mt-[6px]"
 							width={20}
-						></Image>
+						></Image> */}
 						<div className="flex flex-col gap-5">
 							<h1 className="text-[#4fa83d] text-2xl ">
 								OTT Platform as Service
@@ -89,12 +89,12 @@ const OTTPlatform = () => {
 				</div>
 				<div className="flex flex-col gap-5">
 					<div className="flex gap-5 items-start">
-						<Image
+						{/* <Image
 							src={Tickmark}
 							alt="TickMark"
 							className="mt-[6px]"
 							width={20}
-						></Image>
+						></Image> */}
 						<div className="flex flex-col gap-5">
 							<h1 className="text-[#4fa83d] text-2xl ">
 								Audio/Video Broadcast
@@ -108,7 +108,7 @@ const OTTPlatform = () => {
 					</div>
 				</div>
 			</div>
-			<Image src={Football} alt="Football" className="mx-auto py-20"></Image>
+			{/* <Image src={Football} alt="Football" className="mx-auto py-20"></Image> */}
 			<div className="boxLayout mx-auto">
 				<div className="text-center px-20 flex flex-col gap-5">
 					<h1 className="text-[40px] font-semibold">
@@ -131,7 +131,7 @@ const OTTPlatform = () => {
 				</div>
 			</div>
 			<div className="boxLayout w-full mx-auto bg-[#4fa83d] flex gap-10 justify-between p-10">
-				<Image src={SetTopBox} alt="SetTopBox" className="w-1/2"></Image>
+				{/* <Image src={SetTopBox} alt="SetTopBox" className="w-1/2"></Image> */}
 				<div className="flex flex-col gap-5">
 					<h1 className="text-black text-2xl font-semibold">Set-Top Box</h1>
 					<h3 className="text-4xl font-bold">

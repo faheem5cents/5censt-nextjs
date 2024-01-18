@@ -4,14 +4,14 @@ import Link from 'next/link';
 import { CDNDeliveryAccelerationArray } from '@/constants/CDNDeliveryAccelerationArray';
 import { CDNDeliveryAccelerationFAQArray } from '@/constants/FrequentlyAskedQuestionArray';
 import { DeliveryAccelerationPlusFrequentlyAskedQuestionArray } from "@/constants/FrequentlyAskedQuestionArray";
-import CDNDeliveryAccelerationImg from "@/assets/CDN/CDNDeliveryAccelerationImg.png";
+// import CDNDeliveryAccelerationImg from "@/assets/CDN/CDNDeliveryAccelerationImg.png";
 import CDNTopBanner from '../TopBanner';
 import DiscoveryCall from '../DiscoveryCall';
 import CDNDASpeedUp from './CDNDASpeedUp';
 import FrequentlyAskedQuestion from '../FAQ/FrequentlyAskedQuestion';
 import ClientAndExperience from '../ClientAndExperience/ClientAndExperience';
 import SeamlessCoverageForm from './SeamlessCoverageForm';
-import wordPressIcon from "@/assets/CDN/wordPressIcon.png";
+// import wordPressIcon from "@/assets/CDN/wordPressIcon.png";
 import FrequentlyAskedQuestionDropDown from "@/components/desktop/FAQ/FrequentlyAskedQuestionDropDown";
 
 const CDNdeliveryAcceleration = () => {
@@ -24,7 +24,7 @@ const CDNdeliveryAcceleration = () => {
             />
             <div className='w-full'>
                 <div className='p-[10px] flex justify-center items-center'>
-                    <Image className='w-[850px]' src={CDNDeliveryAccelerationImg} alt='CDN Live Streaming' />
+                    {/* <Image className='w-[850px]' src={CDNDeliveryAccelerationImg} alt='CDN Live Streaming' /> */}
                 </div>
             </div>
             <CDNDASpeedUp />
@@ -70,7 +70,7 @@ const CDNdeliveryAcceleration = () => {
                         <div className="flex justify-center items-center gap-2">
                             <Link className='text-white text-[22px] font-semibold' href="#">Try our WordPress Plugin today!
                             </Link>
-                            <Image className='w-[68px]' src={wordPressIcon} alt='' />
+                            {/* <Image className='w-[68px]' src={wordPressIcon} alt='' /> */}
                         </div>
                         <div className='flex justify-center'>
                             <Link className='bg-[#4fa83d] text-base font-semibold text-white border border-[#4fa83d] rounded-[10px] px-10 py-5 leading-none transition duration-300 hover:bg-transparent hover:text-[#4fa83d]' href="#">Try Now</Link>
