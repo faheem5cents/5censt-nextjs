@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #4FA83D;
+  --background-color: #0D0E10;
+  --white: #ffffff;
+  --dark: #000;
+  --secondary: #cfcfcf;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {}
+}
+
+.test {
+  color: #1c1e204f;
+}
+
+.primary-text{
+  color: var(--primary);
+}
+
+.primary-bg{
+  background: var(--primary);
+}
+
+.primary-border{
+  border-color: var(--primary);
+}
+
+.boxLayout {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.mobileLayout {
+  max-width: 480px;
+  width: 100%;
+}
+
+
+.ProductFeatures {
+  padding: 10px;
+  padding-right: 30px;
+}
+
+.ProductFeatures:nth-child(2n+0) {
+  padding: 10px 20px;
+}
+
+.ProductFeatures:nth-child(3n+0) {
+  padding: 10px;
+  padding-left: 30px;
+}
+
+.HeaderSubMenu.active {
+  display: block;
+}
+
+.MobileInnerMenu.active>div>img {
+  border-radius: 8px;
+  border: 2px solid #4FA83D !important;
+  box-shadow: 0px 0px 10px #4FA83D;
+}
+
+.MobileInnerMenu.active .righti {
+  display: none;
+}
+
+.MobileInnerMenu.active .rightiActive {
+  display: block;
+}
+
+
+.solutionsInner.active>img {
+  transform: rotate(90deg);
+}
+
+/*Security Feature Swiper Class Styles */
+.securityFeature .swiper-slide {
+  background: linear-gradient(101.99deg, #161718 48.3%, rgba(22, 23, 24, 0) 112.45%);
+  border-radius: 19px !important;
+  opacity: 0.3;
+  transform: scale3d(0.8, 0.8, 1);
+}
+
+.securityFeature .swiper-slide-active {
+  opacity: 1 !important;
+  transform: scale3d(1, 1, 1) !important;
+}
+
+/*Security Feature Swiper class styles end */
+
+/*Award Winning Swiper Class Styles */
+.awardWinning .swiper-slide {
+  border-radius: 19px !important;
+  opacity: 0.3;
+  transform: scale3d(0.5, 0.5, 1);
+}
+
+.awardWinning .swiper-slide-prev, .awardWinning .swiper-slide-next {
+  opacity: 0.5 !important;
+  transform: scale3d(0.7, 0.7, 1) !important;
+}
+
+.awardWinning .swiper-slide-active {
+  opacity: 1 !important;
+  transform: scale3d(1, 1, 1) !important;
+}
+
+
+.awardWinning .swiper-button-next::after, .awardWinning .swiper-button-prev::after {
+  color: #ffffff80 !important;
+  font-size: 10px !important;
+  padding: 20px !important;
+  border: 1px solid #ffffff80 !important;
+  border-radius: 50%;
+}
+
+/*Security Feature Swiper class styles end */
+
+/* Robust Feature Classes  */
+
+.horizontalLine {
+  background-image: url("../assets/RobustFeature/HorizontalLine.png");
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 85% auto;
+}
+
+.verticalLine {
+  background-image: url("../assets/RobustFeature/Video-formats-BG-On-Hover.webp");
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.robustFeatureBackground {
+  background-image: url('../assets/RobustFeature/RobustFeatureBackground.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.BrandKitAndGuidelinesBackground {
+  background-image: url('../assets/BrandKitAndGuidelines/background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

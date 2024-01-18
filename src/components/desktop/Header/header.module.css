@@ -1,0 +1,158 @@
+/* Classes */
+.flex {
+    display: flex;
+}
+
+.none {
+    display: none;
+}
+
+
+
+/* Header */
+.top_bar {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.boxLayout {
+    max-width: 1200px;
+}
+
+
+.h_feature {
+    position: relative;
+}
+
+.h_feature:hover .feature_sub {
+    display: flex;
+}
+
+.feature_sub {
+    background: rgba(255, 255, 255, 0.11);
+    border: 1px solid #4A4A4A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(10.5px);
+    border-radius: 8px;
+    padding: 5px 0;
+    top: 19px;
+    left: 2px;
+    display: none;
+}
+
+.menu_li:hover .header-main-links {
+    color: var(--primary);
+    transition: all .4s ease;
+}
+
+
+/* Header Sub menu */
+.products_submenu::before {
+    content: url(https://www.5centscdn.net/wp-content/uploads/2023/06/Polygon-1.svg);
+    position: absolute;
+    top: -27px;
+    filter: drop-shadow(0px -3px 0px #4A4A4A);
+    left: 245px;
+    z-index: -99;
+}
+
+.headerProducts:hover>a {
+    color: var(--primary);
+}
+
+.headerProducts:hover .products_submenu {
+    display: block;
+}
+
+
+.solution_tile_icon {
+    margin-right: 10px;
+}
+
+.product_tile:hover .product_tile_icon,
+.solution_tile:hover .solution_tile_icon {
+    border: 2px solid #4FA83D !important;
+    box-shadow: 0px 0px 10px #4FA83D;
+    border-radius: 8px;
+}
+
+
+.product_tile:hover .subMenu_caret,
+.solution_tile:hover .subMenu_caret {
+    display: none;
+}
+
+.subMenu_caret_active {
+    display: none;
+}
+
+.solution_tile:hover .subMenu_caret_active {
+    display: block;
+}
+
+.solutionProducts:hover .solutions_submenu {
+    display: block;
+}
+.solutionProducts:hover>a {
+    color: var(--primary);
+}
+.solutions_submenu::before {
+    content: url(https://www.5centscdn.net/wp-content/uploads/2023/06/Polygon-1.svg);
+    position: absolute;
+    top: -27px;
+    filter: drop-shadow(0px -3px 0px #4A4A4A);
+    left: 366px;
+    z-index: -99;
+}
+
+.products_submenu_mobile {
+    display: none;
+}
+
+.products_submenu_mobile_major .products_submenu_mobile {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .products_submenu_mobile {
+        display: none !important;
+    }
+
+    .main_header {
+        display: flex !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .solutions_submenu {
+        transform: translate(-130%, -27%) !important;
+        z-index: 9;
+    }
+
+    .products_submenu::before {
+        content: url("");
+    }
+
+    .product_major_menu:hover .products_submenu {
+        display: none;
+    }
+
+    .product_tile:hover>div,
+    .solution_tile:hover>div {
+        background: none;
+    }
+
+    .products_submenu_mobile_major:hover .products_submenu_mobile {
+        display: block;
+    }
+
+    .solution_major_menu:hover .solutions_submenu {
+        display: none;
+    }
+
+    .mobile_products_inner_tab:hover .mobile_products_inner_tab_content {
+        display: block;
+    }
+
+}
