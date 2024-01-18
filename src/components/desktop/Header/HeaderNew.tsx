@@ -635,7 +635,7 @@ const HeaderNew = () => {
 																			<li>
 																				<Link
 																					className="transition duration-300 text-base leading-[22px] pl-[61px] text-[#FFFFFFAD] hover:text-[#4FA83D]"
-																					href="/"
+																					href="/cloud-storage"
 																				>
 																					Cloud Storage
 																				</Link>
