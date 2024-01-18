@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "./header.module.css";
-import Caret from "@/assets/header-icons/caret.svg";
+import Caret from "@/assets/header-icons/caret.svg"; 
 import DNSSub from "@/assets/header-icons/dns-sub.svg";
 import down from "@/assets/header-icons/down.svg";
 import EdgeSec from "@/assets/header-icons/edgesec-delivery.svg";
@@ -95,7 +95,7 @@ const HeaderNew = () => {
 														<li className="flex justify-center items-center">
 															<Link
 																className="px-5 py-[13px] w-full text-center transition duration-[400ms] hover:bg-[#4FA83D] leading-5 text-[13px] font-semibold"
-																href="#"
+																href="/image-optimizer/"
 															>
 																Image Optimizer
 															</Link> 
@@ -103,7 +103,7 @@ const HeaderNew = () => {
 														<li className="flex justify-center items-center">
 															<Link
 																className="px-5 py-[13px] w-full text-center transition duration-[400ms] hover:bg-[#4FA83D] leading-5 text-[13px] font-semibold"
-																href="#"
+																href="/asset-optimizer/"
 															>
 																Asset Optimizer
 															</Link>
@@ -496,7 +496,7 @@ const HeaderNew = () => {
 																			<li>
 																				<Link
 																					className="transition duration-300 text-base leading-[22px] pl-[61px] text-[#FFFFFFAD] hover:text-[#4FA83D]"
-																					href="/"
+																					href="/restream-multistreaming-streaming"
 																				>
 																					Multistreaming
 																				</Link>
@@ -504,7 +504,7 @@ const HeaderNew = () => {
 																			<li>
 																				<Link
 																					className="transition duration-300 text-base leading-[22px] pl-[61px] text-[#FFFFFFAD] hover:text-[#4FA83D]"
-																					href="/"
+																					href="/scheduler"
 																				>
 																					Scheduler
 																				</Link>
@@ -590,7 +590,7 @@ const HeaderNew = () => {
 																			<li>
 																				<Link
 																					className="transition duration-300 text-base leading-[22px] pl-[61px] text-[#FFFFFFAD] hover:text-[#4FA83D]"
-																					href="/"
+																					href="/asset-optimizer"
 																				>
 																					Asset Optimization
 																				</Link>
@@ -598,7 +598,7 @@ const HeaderNew = () => {
 																			<li>
 																				<Link
 																					className="transition duration-300 text-base leading-[22px] pl-[61px] text-[#FFFFFFAD] hover:text-[#4FA83D]"
-																					href="/"
+																					href="/image-optimizer"
 																				>
 																					Image Optimization
 																				</Link>
@@ -635,7 +635,7 @@ const HeaderNew = () => {
 																			<li>
 																				<Link
 																					className="transition duration-300 text-base leading-[22px] pl-[61px] text-[#FFFFFFAD] hover:text-[#4FA83D]"
-																					href="/cloud-storage"
+																					href="/cloud-storage/"
 																				>
 																					Cloud Storage
 																				</Link>
@@ -688,7 +688,7 @@ const HeaderNew = () => {
 																			<li>
 																				<Link
 																					className="transition duration-300 text-base leading-[22px] pl-[61px] text-[#FFFFFFAD] hover:text-[#4FA83D]"
-																					href="/"
+																					href="cdn-simpledns/"
 																				>
 																					SimpleDNS
 																				</Link>
@@ -696,7 +696,7 @@ const HeaderNew = () => {
 																			<li>
 																				<Link
 																					className="transition duration-300 text-base leading-[22px] pl-[61px] text-[#FFFFFFAD] hover:text-[#4FA83D]"
-																					href="/"
+																					href="/cdn-traffic-director"
 																				>
 																					Traffic Director
 																				</Link>
@@ -782,7 +782,7 @@ const HeaderNew = () => {
 																<li className="py-[10px] px-0">
 																	<Link
 																		className="text-[#FFFFFF8F] text-base flex justify-between hover:text-[#4fa83d]"
-																		href="/"
+																		href="/switch-cdn/"
 																	>
 																		Switch to 5centsCDN
 																		<Image
@@ -1103,7 +1103,7 @@ const HeaderNew = () => {
 																				<li>
 																					<Link
 																						className="transition duration-300 text-base leading-[22px] pl-[61px] text-[#FFFFFFAD] hover:text-[#4FA83D]"
-																						href="/"
+																						href="/image-optimizer"
 																					>
 																						Image Optimization
 																					</Link>
@@ -1119,7 +1119,7 @@ const HeaderNew = () => {
 																				<li>
 																					<Link
 																						className="transition duration-300 text-base leading-[22px] pl-[61px] text-[#FFFFFFAD] hover:text-[#4FA83D]"
-																						href="/"
+																						href="/asset-optimizer"
 																					>
 																						Asset Optimization
 																					</Link>
@@ -1177,7 +1177,7 @@ const HeaderNew = () => {
 																				<li>
 																					<Link
 																						className="transition duration-300 text-base leading-[22px] pl-[61px] text-[#FFFFFFAD] hover:text-[#4FA83D]"
-																						href="/"
+																						href="/cdn-video-streaming"
 																					>
 																						Video Hosting
 																					</Link>
@@ -1185,7 +1185,15 @@ const HeaderNew = () => {
 																				<li>
 																					<Link
 																						className="transition duration-300 text-base leading-[22px] pl-[61px] text-[#FFFFFFAD] hover:text-[#4FA83D]"
-																						href="/"
+																						href="/cdn-live-streaming"
+																					>
+																						Live Streaming
+																					</Link>
+																				</li>
+																				<li>
+																					<Link
+																						className="transition duration-300 text-base leading-[22px] pl-[61px] text-[#FFFFFFAD] hover:text-[#4FA83D]"
+																						href="/ip-camera-restreaming"
 																					>
 																						IP Camera Streaming
 																					</Link>
@@ -1193,7 +1201,7 @@ const HeaderNew = () => {
 																				<li>
 																					<Link
 																						className="transition duration-300 text-base leading-[22px] pl-[61px] text-[#FFFFFFAD] hover:text-[#4FA83D]"
-																						href="/"
+																						href="/live-event-streaming"
 																					>
 																						Live Streaming Events
 																					</Link>
@@ -1305,7 +1313,7 @@ const HeaderNew = () => {
 																				<li>
 																					<Link
 																						className="transition duration-300 text-base leading-[22px] pl-[61px] text-[#FFFFFFAD] hover:text-[#4FA83D]"
-																						href="/"
+																						href="/image-optimizer"
 																					>
 																						Image Optimization
 																					</Link>
@@ -1313,7 +1321,7 @@ const HeaderNew = () => {
 																				<li>
 																					<Link
 																						className="transition duration-300 text-base leading-[22px] pl-[61px] text-[#FFFFFFAD] hover:text-[#4FA83D]"
-																						href="/"
+																						href="/asset-optimizer"
 																					>
 																						Asset Optimization
 																					</Link>
@@ -1387,7 +1395,7 @@ const HeaderNew = () => {
 																				<li>
 																					<Link
 																						className="transition duration-300 text-base leading-[22px] pl-[61px] text-[#FFFFFFAD] hover:text-[#4FA83D]"
-																						href="/"
+																						href="/cdn-video-streaming"
 																					>
 																						Video Hosting
 																					</Link>
@@ -1395,7 +1403,7 @@ const HeaderNew = () => {
 																				<li>
 																					<Link
 																						className="transition duration-300 text-base leading-[22px] pl-[61px] text-[#FFFFFFAD] hover:text-[#4FA83D]"
-																						href="/"
+																						href="/cdn-live-streaming"
 																					>
 																						Live Streaming
 																					</Link>
@@ -1403,7 +1411,7 @@ const HeaderNew = () => {
 																				<li>
 																					<Link
 																						className="transition duration-300 text-base leading-[22px] pl-[61px] text-[#FFFFFFAD] hover:text-[#4FA83D]"
-																						href="/"
+																						href="/ip-camera-restreaming"
 																					>
 																						IP Camera Streaming
 																					</Link>
@@ -1411,7 +1419,7 @@ const HeaderNew = () => {
 																				<li>
 																					<Link
 																						className="transition duration-300 text-base leading-[22px] pl-[61px] text-[#FFFFFFAD] hover:text-[#4FA83D]"
-																						href="/"
+																						href="/live-event-streaming"
 																					>
 																						Live Streaming Events
 																					</Link>
