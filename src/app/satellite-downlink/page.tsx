@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
-import RadiusBackground from "/public/assets/HomePage/FeatureProductsRadiusTop.svg";
+// import RadiusBackground from "/public/assets/HomePage/FeatureProductsRadiusTop.svg";
 import Satellite from "/public/assets/SatelliteDownlink/Satellite.svg";
 import Tickmark from "/public/assets/SatelliteDownlink/tickMark.svg";
 
@@ -39,11 +39,11 @@ const SatelliteDownlink = () => {
 						Unlock a 15-day Trial with our 24/7 customer support to help you.
 					</p>
 				</div>
-				<Image
+				{/* <Image
 					src={RadiusBackground}
 					alt="Curved Background"
 					className="w-full absolute bottom-[-1px] transform rotate-0 h-[70px] lg:h-32 "
-				></Image>
+				></Image> */}
 			</div>
 			<div className="w-[50%] mx-auto text-center flex flex-col gap-10 py-20">
 				<h1 className="text-[#4fa83d] text-5xl font-bold">
