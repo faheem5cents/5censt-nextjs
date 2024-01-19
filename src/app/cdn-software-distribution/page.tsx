@@ -13,7 +13,7 @@ import Link from 'next/link';
 import Brands from '@/components/desktop/Brands';
 
 
-export const SoftwareDistributionFeatures = [
+const SoftwareDistributionFeatures = [
     {
         img: SSLGlobalScaledNetwork,
         heading: "SSLGlobal Scaled Network",
