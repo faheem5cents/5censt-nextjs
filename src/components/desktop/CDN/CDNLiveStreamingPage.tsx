@@ -2,10 +2,10 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import CDNTab from '@/components/desktop/CDN/CDNTab';
-import CDNTabIcon from "@/assets/CDN/CDNTab.svg";
-import LiveStreamTabIcon from "@/assets/CDN/LiveStreamTab.svg";
-import VideoStreamingTabIcon from "@/assets/CDN/VideoStreamingTab.svg";
-import DeliveryAccelerationTabIcon from "@/assets/CDN/DeliveryAccelerationTab.svg";
+import CDNTabIcon from "/public/assets/CDN/CDNTab.svg";
+import LiveStreamTabIcon from "/public/assets/CDN/LiveStreamTab.svg";
+import VideoStreamingTabIcon from "/public/assets/CDN/VideoStreamingTab.svg";
+import DeliveryAccelerationTabIcon from "/public/assets/CDN/DeliveryAccelerationTab.svg";
 import CDNLiveStreamingTab from '@/components/desktop/CDN/CDNLiveStreamingTab';
 import CDNVideoStreamingTab from '@/components/desktop/CDN/CDNVideoStreamingTab';
 import CDNdeliveryAccelerationTab from '@/components/desktop/CDN/CDNdeliveryAccelerationTab';

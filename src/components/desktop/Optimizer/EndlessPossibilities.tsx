@@ -1,8 +1,8 @@
 import React from 'react';
-import FasterWebsiteIcon from "@/assets/Optimizer/FasterWebsiteIcon.svg";
-import ReducedServerIcon from "@/assets/Optimizer/ReducedServerIcon.svg";
-import ImprovedSEOIcon from "@/assets/Optimizer/ImprovedSEOIcon.svg";
-import CustomizablesettingsIcon from "@/assets/Optimizer/CustomizablesettingsIcon.svg";
+import FasterWebsiteIcon from "/public/assets/Optimizer/FasterWebsiteIcon.svg";
+import ReducedServerIcon from "/public/assets/Optimizer/ReducedServerIcon.svg";
+import ImprovedSEOIcon from "/public/assets/Optimizer/ImprovedSEOIcon.svg";
+import CustomizablesettingsIcon from "/public/assets/Optimizer/CustomizablesettingsIcon.svg";
 import Image from 'next/image';
 
 export const EndlessPossibilitiesArray = [

@@ -1,15 +1,15 @@
-import RTMPIngest from "@/assets/RestreamMultistreamingStreaming/RTMPIngest.png";
-import Restream from "@/assets/RestreamMultistreamingStreaming/Re-stream.png";
-import MultiPublishing from "@/assets/RestreamMultistreamingStreaming/MultiPublishing.png";
-import GeobasedOrigin from "@/assets/RestreamMultistreamingStreaming/GeobasedOrigin.png";
-import oAuth from "@/assets/RestreamMultistreamingStreaming/oAuth.png";
-import Transcoding from "@/assets/RestreamMultistreamingStreaming/Transcoding.png";
-import NoBitrateLimit from "@/assets/RestreamMultistreamingStreaming/NoBitrateLimit.png";
-import NoDurationLimit from "@/assets/RestreamMultistreamingStreaming/NoDurationLimit.png";
-import PublishScheduler from "@/assets/RestreamMultistreamingStreaming/PublishScheduler.png";
-import PublishingStatus from "@/assets/RestreamMultistreamingStreaming/PublishingStatus.png";
-import FlatPricing from "@/assets/RestreamMultistreamingStreaming/FlatPricing.png";
-import EncoderLog from "@/assets/RestreamMultistreamingStreaming/EncoderLog.png";
+import RTMPIngest from "/public/assets/RestreamMultistreamingStreaming/RTMPIngest.png";
+import Restream from "/public/assets/RestreamMultistreamingStreaming/Re-stream.png";
+import MultiPublishing from "/public/assets/RestreamMultistreamingStreaming/MultiPublishing.png";
+import GeobasedOrigin from "/public/assets/RestreamMultistreamingStreaming/GeobasedOrigin.png";
+import oAuth from "/public/assets/RestreamMultistreamingStreaming/oAuth.png";
+import Transcoding from "/public/assets/RestreamMultistreamingStreaming/Transcoding.png";
+import NoBitrateLimit from "/public/assets/RestreamMultistreamingStreaming/NoBitrateLimit.png";
+import NoDurationLimit from "/public/assets/RestreamMultistreamingStreaming/NoDurationLimit.png";
+import PublishScheduler from "/public/assets/RestreamMultistreamingStreaming/PublishScheduler.png";
+import PublishingStatus from "/public/assets/RestreamMultistreamingStreaming/PublishingStatus.png";
+import FlatPricing from "/public/assets/RestreamMultistreamingStreaming/FlatPricing.png";
+import EncoderLog from "/public/assets/RestreamMultistreamingStreaming/EncoderLog.png";
 import { transcode } from "buffer";
 
 export const RMStreamingFeaturesArray = [

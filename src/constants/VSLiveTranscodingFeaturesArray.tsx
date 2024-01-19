@@ -1,12 +1,12 @@
-import MultiBitrateTranscoding from "@/assets/VideoService/MultiBitrateTranscoding.png";
-import NoLimit from "@/assets/VideoService/NoLimit.png";
-import MultipleProfiles from "@/assets/VideoService/MultipleProfiles.png";
-import AdaptiveBitrateStreaming from "@/assets/VideoService/AdaptiveBitrateStreaming.png";
-import CloudTranscoding from "@/assets/VideoService/CloudTranscoding.png";
-import FlatBilling from "@/assets/VideoService/FlatBilling.png";
-import PresetProfiles from "@/assets/VideoService/PresetProfiles.png";
-import NumberofStreamOutputs from "@/assets/VideoService/NumberofStreamOutputs.png";
-import Filters from "@/assets/VideoService/Filters.png";
+import MultiBitrateTranscoding from "/public/assets/VideoService/MultiBitrateTranscoding.png";
+import NoLimit from "/public/assets/VideoService/NoLimit.png";
+import MultipleProfiles from "/public/assets/VideoService/MultipleProfiles.png";
+import AdaptiveBitrateStreaming from "/public/assets/VideoService/AdaptiveBitrateStreaming.png";
+import CloudTranscoding from "/public/assets/VideoService/CloudTranscoding.png";
+import FlatBilling from "/public/assets/VideoService/FlatBilling.png";
+import PresetProfiles from "/public/assets/VideoService/PresetProfiles.png";
+import NumberofStreamOutputs from "/public/assets/VideoService/NumberofStreamOutputs.png";
+import Filters from "/public/assets/VideoService/Filters.png";
 
 export const VSLiveTranscodingFeaturesArray = [ 
     {

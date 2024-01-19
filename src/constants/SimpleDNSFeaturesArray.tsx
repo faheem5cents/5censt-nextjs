@@ -1,9 +1,9 @@
-import InHouseCloudInfrastructure from "@/assets/DNS/InHouseCloudInfrastructure.png";
-import SecurityEnhancement from "@/assets/DNS/SecurityEnhancement.png";
-import FasterInternetConnections from "@/assets/DNS/FasterInternetConnections.png";
-import ManagedDNS from "@/assets/DNS/ManagedDNS.png";
-import BudgetFriendly from "@/assets/DNS/BudgetFriendly.png";
-import ExceptionalSupport from "@/assets/DNS/ExceptionalSupport.png";
+import InHouseCloudInfrastructure from "/public/assets/DNS/InHouseCloudInfrastructure.png";
+import SecurityEnhancement from "/public/assets/DNS/SecurityEnhancement.png";
+import FasterInternetConnections from "/public/assets/DNS/FasterInternetConnections.png";
+import ManagedDNS from "/public/assets/DNS/ManagedDNS.png";
+import BudgetFriendly from "/public/assets/DNS/BudgetFriendly.png";
+import ExceptionalSupport from "/public/assets/DNS/ExceptionalSupport.png";
 
 export const SimpleDNSFeaturesArray = [ 
     {
@@ -11,7 +11,7 @@ export const SimpleDNSFeaturesArray = [
         heading: "In-house cloud Infrastructure ",
         description: "A Managed DNS Provider allows users to manage their DNS traffic by using a web-based control panel. 5centsCDN is a Managed DNS provider. With 34 Anycast Data Centers on 6 continents. ",
     },
-    {
+    { 
         img: SecurityEnhancement,
         heading: "Security enhancement ",
         description: "5centsCDN DNS ensures that any attempt to intrude and hack your server environment is thwarted before an entry into your network. ",

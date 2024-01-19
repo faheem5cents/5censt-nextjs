@@ -1,9 +1,9 @@
-import AnycastNetwork from "@/assets/DNS/AnycastNetwork.png";
-import PointClickTrafficManagement from "@/assets/DNS/PointClickTrafficManagement.png";
-import CloudBased from "@/assets/DNS/CloudBased.png";
-import HighAvailability from "@/assets/DNS/HighAvailability.png";
-import CountryBasedRouting from "@/assets/DNS/CountryBasedRouting.png";
-import ASNBasedRouting from "@/assets/DNS/ASNBasedRouting.png";
+import AnycastNetwork from "/public/assets/DNS/AnycastNetwork.png";
+import PointClickTrafficManagement from "/public/assets/DNS/PointClickTrafficManagement.png";
+import CloudBased from "/public/assets/DNS/CloudBased.png";
+import HighAvailability from "/public/assets/DNS/HighAvailability.png";
+import CountryBasedRouting from "/public/assets/DNS/CountryBasedRouting.png";
+import ASNBasedRouting from "/public/assets/DNS/ASNBasedRouting.png";
 
 
 export const TrafficDirectorFeaturesArray = [

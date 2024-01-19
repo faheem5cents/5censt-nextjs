@@ -1,12 +1,12 @@
-import LiveRecordingDVR from "@/assets/CDN/LiveRecordingDVR.png";
-import nDVR from "@/assets/CDN/nDVR.png";
-import LiveTranscoding from "@/assets/CDN/LiveTranscoding.png";
-import Multistreaming from "@/assets/CDN/Multistreaming.png";
-import DelayedStreamingTimeShift from "@/assets/CDN/DelayedStreamingTimeShift.png";
-import TokenAuthentication from "@/assets/CDN/TokenAuthentication.png";
-import IPBlocking from "@/assets/CDN/IPBlocking.png";
-import DomainLocking from "@/assets/CDN/DomainLocking.png";
-import TrafficDirector from "@/assets/CDN/TrafficDirector.png";
+import LiveRecordingDVR from "/public/assets/CDN/LiveRecordingDVR.png";
+import nDVR from "/public/assets/CDN/nDVR.png";
+import LiveTranscoding from "/public/assets/CDN/LiveTranscoding.png";
+import Multistreaming from "/public/assets/CDN/Multistreaming.png";
+import DelayedStreamingTimeShift from "/public/assets/CDN/DelayedStreamingTimeShift.png";
+import TokenAuthentication from "/public/assets/CDN/TokenAuthentication.png";
+import IPBlocking from "/public/assets/CDN/IPBlocking.png";
+import DomainLocking from "/public/assets/CDN/DomainLocking.png";
+import TrafficDirector from "/public/assets/CDN/TrafficDirector.png";
   
 export const CDNLivestreamingArray = [ 
     {

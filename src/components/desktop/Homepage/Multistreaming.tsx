@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import MultistreamingImage from "@/assets/HighlightProducts/Multistreaming.png";
+import MultistreamingImage from "/public/assets/HighlightProducts/Multistreaming.png";
 
 const Multistreaming = () => {
     return (

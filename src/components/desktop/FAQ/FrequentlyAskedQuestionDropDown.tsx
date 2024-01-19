@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import DropRightArrow from "@/assets/GlobalImages/DropRightArrow.svg";
-import DropRightArrowGreen from "@/assets/GlobalImages/DropRightArrowGreen.svg";
+import DropRightArrow from "/public/assets/GlobalImages/DropRightArrow.svg";
+import DropRightArrowGreen from "/public/assets/GlobalImages/DropRightArrowGreen.svg";
 import { useState } from "react";
 
 export interface FrequentlyAskedQuestionInterface {

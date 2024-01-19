@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import CheckRoundedIcon from "@/assets/GlobalImages/checkRounded.svg";
-import FeatherAsLightImg from "@/assets/Optimizer/FeatherAsLightImg.png";
+import CheckRoundedIcon from "/public/assets/GlobalImages/checkRounded.svg";
+import FeatherAsLightImg from "/public/assets/Optimizer/FeatherAsLightImg.png";
 
 export const FeatherAsLightArray = [
     {

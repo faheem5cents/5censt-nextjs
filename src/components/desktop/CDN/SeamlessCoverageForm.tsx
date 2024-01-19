@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import ScrollTop from "@/assets/CDN/ScrollTop.svg";
+import ScrollTop from "/public/assets/CDN/ScrollTop.svg";
 
 const SeamlessCoverageForm = ({
 	heading,

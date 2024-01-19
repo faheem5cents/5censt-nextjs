@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import ContentDeliveryNetworkImage from "@/assets/HighlightProducts/ContentDeliveryNetwork.png";
+import ContentDeliveryNetworkImage from "/public/assets/HighlightProducts/ContentDeliveryNetwork.png";
 
 const ContentDeliveryNetwork = () => {
     return (

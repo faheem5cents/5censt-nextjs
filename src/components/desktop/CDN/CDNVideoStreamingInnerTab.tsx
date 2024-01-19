@@ -1,8 +1,8 @@
 "use client";
 import React, { useState } from 'react';
 import Image from 'next/image';
-import checkImg from "@/assets/Homepage/Check.svg";
-import RightArrow from "@/assets/CDN/RightArrow.svg";
+import checkImg from "/public/assets/Homepage/Check.svg";
+import RightArrow from "/public/assets/CDN/RightArrow.svg";
 import Link from 'next/link';
 
 const CDNVideoStreamingInnerTab = () => {

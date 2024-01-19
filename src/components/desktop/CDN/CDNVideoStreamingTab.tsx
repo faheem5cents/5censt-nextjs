@@ -2,13 +2,14 @@ import React from 'react';
 import Image from 'next/image';
 import { CDNVideoStreamingArray } from '@/constants/CDNVideoStreamingArray';
 import { CDNVideoStreamingFAQArray } from '@/constants/FrequentlyAskedQuestionArray';
-import CDNVideoStreamingTabImg from "@/assets/CDN/CDNVideoStreamingTabImg.png";
+import CDNVideoStreamingTabImg from "/public/assets/CDN/CDNVideoStreamingTabImg.png";
 import CDNVideoStreamingInnerTab from './CDNVideoStreamingInnerTab';
 import DiscoveryCall from '../DiscoveryCall';
 import FrequentlyAskedQuestion from '../FAQ/FrequentlyAskedQuestion';
 import ClientAndExperience from '../ClientAndExperience/ClientAndExperience';
 import SeamlessCoverageForm from './SeamlessCoverageForm';
 import CDNTopBanner from '../TopBanner';
+import ProductFeatures from '../ProductFeatures';
 
 const CDNVideoStreaming = () => {
     return (
@@ -23,33 +24,8 @@ const CDNVideoStreaming = () => {
                     <Image className='w-[850px]' src={CDNVideoStreamingTabImg} alt='CDN Live Streaming' />
                 </div>
             </div>
-            <div className='pt-[90px]'>
-                <div className='max-w-[1140px] mx-auto'>
-                    <div className='p-[10px]'>
-                        <div className='mb-5'>
-                            <h2 className='text-[40px] text-white text-center font-semibold leading-[1.4em]'>
-                                <span className='text-[#4fa83d]'>On-Demand </span> video content anytime, anywhere</h2>
-                        </div>
-                        <div className='mt-[80px]'>
-                            <div className='flex flex-col md:flex-row items-start flex-wrap justify-between gap-y-10'>
-                                {CDNVideoStreamingArray.map((item, index) => (
-                                    <div key={index} className='w-full md:w-[29.5%]'>
-                                        <div className='flex flex-col'>
-                                            <div className='mb-5 flex justify-center'>
-                                                <Image className='w-full max-w-[378px] md:w-full' src={item.img} alt='Live Recording DVR' />
-                                            </div>
-                                            <div className='mb-5'>
-                                                <h3 className='text-[22px] text-[#4fa83d] text-left leading-none'>{item.heading}</h3>
-                                            </div>
-                                            <p className='text-[#cfcfcf] text-base leading-[1.5]'>{item.description}</p>
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <ProductFeatures heading={"<span class='text-[#4fa83d]'>On-Demand </span> video content anytime, anywhere"} 
+            CDNLiveStreamingArray={CDNVideoStreamingArray} />
             <div className='mb-5'>
                 <div className='py-[90px] max-w-[1140px] mx-auto'>
                     <div className="w-full border-t-[0.5px] border-[#ffffff20]"></div>

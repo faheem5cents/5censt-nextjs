@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
-import TrafficAlertIcoon from "@/assets/DNS/TrafficAlertIcoon.svg"
-import StatsAnalyticsIcon from "@/assets/DNS/StatsAnalyticsIcon.svg"
-import FilteringIcon from "@/assets/DNS/FilteringIcon.svg"
-import AccountSecurityIcon from "@/assets/DNS/AccountSecurityIcon.svg"
+import TrafficAlertIcoon from "/public/assets/DNS/TrafficAlertIcoon.svg"
+import StatsAnalyticsIcon from "/public/assets/DNS/StatsAnalyticsIcon.svg"
+import FilteringIcon from "/public/assets/DNS/FilteringIcon.svg"
+import AccountSecurityIcon from "/public/assets/DNS/AccountSecurityIcon.svg"
 
 export const SecurityFeaturesArray = [
     {

@@ -1,8 +1,8 @@
 import React from 'react';
 import Image from 'next/image';
-import UserSatisfaction from "@/assets/CDN/CDNDAUserSatisfaction.svg";
-import CDNDAHigherConversion from "@/assets/CDN/CDNDAHigherConversion.svg";
-import CDNDAWebsiteoptimization from "@/assets/CDN/CDNDAWebsiteoptimization.svg";
+import UserSatisfaction from "/public/assets/CDN/CDNDAUserSatisfaction.svg";
+import CDNDAHigherConversion from "/public/assets/CDN/CDNDAHigherConversion.svg";
+import CDNDAWebsiteoptimization from "/public/assets/CDN/CDNDAWebsiteoptimization.svg";
 
 export const SpeedUpArray = [
     {

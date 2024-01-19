@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
-import ExploreCpanelImage from "@/assets/GlobalImages/ExploreCpanelImage.png";
-import LiveEventStreaming from "@/assets/GlobalImages/LiveEventStreaming.svg";
-import IPCamRestreaming from "@/assets/GlobalImages/IPCamRestreaming.svg";
-import WebsiteAcceleration from "@/assets/GlobalImages/WebsiteAcceleration.svg";
-import WebApplicationAcceleration from "@/assets/GlobalImages/WebApplicationAcceleration.svg";
-import SoftwareDistribution from "@/assets/GlobalImages/SoftwareDistribution.svg";
-import SatelliteDownlink from "@/assets/GlobalImages/SatelliteDownlink.svg";
-import OTTPlatform from "@/assets/GlobalImages/OTTPlatform.svg";
+import ExploreCpanelImage from "/public/assets/GlobalImages/ExploreCpanelImage.png";
+import LiveEventStreaming from "/public/assets/GlobalImages/LiveEventStreaming.svg";
+import IPCamRestreaming from "/public/assets/GlobalImages/IPCamRestreaming.svg";
+import WebsiteAcceleration from "/public/assets/GlobalImages/WebsiteAcceleration.svg";
+import WebApplicationAcceleration from "/public/assets/GlobalImages/WebApplicationAcceleration.svg";
+import SoftwareDistribution from "/public/assets/GlobalImages/SoftwareDistribution.svg";
+import SatelliteDownlink from "/public/assets/GlobalImages/SatelliteDownlink.svg";
+import OTTPlatform from "/public/assets/GlobalImages/OTTPlatform.svg";
 import Link from "next/link";
 
 const ExploreCPanel = () => {

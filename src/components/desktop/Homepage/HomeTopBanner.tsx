@@ -1,12 +1,12 @@
 import React from "react";
 import Image from "next/image";
-import RightArrows from "@/assets/GlobalImages/RightArrows.svg";
+import RightArrows from "/public/assets/GlobalImages/RightArrows.svg";
 
 const TopBanner = () => {
 	return (
 		<>
 			<div
-				className={`py-5 min-h-[700px] flex items-center justify-center bg-[url('../assets/GlobalImages/TopBanner.png')] bg-cover bg-no-repeat bg-center md:mt-auto mt-[94.5px]`}
+				className={`py-5 min-h-[700px] flex items-center justify-center bg-[url('/assets/GlobalImages/TopBanner.png')] bg-cover bg-no-repeat bg-center md:mt-auto mt-[94.5px]`}
 			>
 				<div className="max-w-[1140px]">
 					<div className="w-full flex flex-col flex-wrap items-center">
@@ -27,7 +27,7 @@ const TopBanner = () => {
 						</div>
 						<div className="w-full lg:w-auto flex justify-center mt-[6.5%] mx-auto lg:mx-[20%]">
 							<div className="border border-[#4fa83d] rounded-[10px] p-[5px] w-[90%] lg:w-[658px] flex flex-col md:flex-row justify-between">
-								<input
+								<input 
 									type="email"
 									placeholder="Enter your email to sign-in"
 									className="bg-transparent md:w-[70%] min-h-[59px] px-3 outline-0 text-white"

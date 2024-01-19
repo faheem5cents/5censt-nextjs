@@ -19,9 +19,7 @@ const CDNPriceEstimator = () => {
 					<div className="mt-20 flex flex-col gap-10 w-full min-h-screen bg-[#1b1c1f] p-5 rounded-3xl">
 						<CDNPricing />
 					</div>
-					<TryForFreeForm
-						heading={"Give Your Customers The Best Viewing Experience."}
-					/>
+					<TryForFreeForm heading={"Give Your Customers The Best Viewing Experience."} />
 				</div>
 			</div>
 			<div className="w-full pb-40">

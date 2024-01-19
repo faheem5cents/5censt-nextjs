@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import CDNTopBanner from '@/components/desktop/TopBanner';
-import VSMultistreamingStreamingImage from "@/assets/RestreamMultistreamingStreaming/RestreamMultistreamingStreaming.png";
+import VSMultistreamingStreamingImage from "/public/assets/RestreamMultistreamingStreaming/RestreamMultistreamingStreaming.png";
 import RMStreamingFeatures from '@/components/desktop/RestreamMultistreamingStreaming/VSMultiStreamingFeatures';
 import DiscoveryCall from '@/components/desktop/DiscoveryCall';
 import VSMultiStreamingPlansPricing from '@/components/desktop/Video Services/VSMultiStreamingPlansPricing';

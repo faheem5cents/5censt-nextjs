@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import DNSTopBanner from './DNSTopBanner';
-import TrafficDirectorImage from "@/assets/DNS/TrafficDirectorImage.png";
+import TrafficDirectorImage from "/public/assets/DNS/TrafficDirectorImage.png";
 import { TrafficDirectorFeaturesArray } from '@/constants/TrafficDiretorFeaturesArray';
 import DNSSecurityFeatures from "@/components/desktop/DNS/DNSSecurityFeatures";
 import StraightForwardPricing from './StraightForwardPricing';

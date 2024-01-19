@@ -1,5 +1,5 @@
 import React from 'react';
-import WordpressPluginVideoBg from "@/assets/Optimizer/WordpressPluginVideoBg.png"
+import WordpressPluginVideoBg from "/public/assets/Optimizer/WordpressPluginVideoBg.png"
 import Link from 'next/link';
 
 const WordpressPluginVideo = () => {

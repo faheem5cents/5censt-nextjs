@@ -1,12 +1,12 @@
-import VSInstantPurging from "@/assets/CDN/VSInstantPurging.png";
-import VSOriginShield from "@/assets/CDN/VSOriginShield.png";
-import VSEdgeRules from "@/assets/CDN/VSEdgeRules.png";
-import VSSSL from "@/assets/CDN/VSSSL.png";
-import VSTokenSecurity from "@/assets/CDN/VSTokenSecurity.png";
-import VSDomainLocking from "@/assets/CDN/VSDomainLocking.png";
-import VSPseudoStreaming from "@/assets/CDN/VSPseudoStreaming.png";
-import VSAdaptiveBitrateStreaming from "@/assets/CDN/VSAdaptiveBitrateStreaming.png";
-import VSMP4toHLSDASH from "@/assets/CDN/VSMP4toHLSDASH.png";
+import VSInstantPurging from "/public/assets/CDN/VSInstantPurging.png";
+import VSOriginShield from "/public/assets/CDN/VSOriginShield.png";
+import VSEdgeRules from "/public/assets/CDN/VSEdgeRules.png";
+import VSSSL from "/public/assets/CDN/VSSSL.png";
+import VSTokenSecurity from "/public/assets/CDN/VSTokenSecurity.png";
+import VSDomainLocking from "/public/assets/CDN/VSDomainLocking.png";
+import VSPseudoStreaming from "/public/assets/CDN/VSPseudoStreaming.png";
+import VSAdaptiveBitrateStreaming from "/public/assets/CDN/VSAdaptiveBitrateStreaming.png";
+import VSMP4toHLSDASH from "/public/assets/CDN/VSMP4toHLSDASH.png";
 
 export const CDNVideoStreamingArray = [
     {

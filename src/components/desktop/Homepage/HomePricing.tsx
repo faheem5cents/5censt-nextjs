@@ -1,5 +1,5 @@
 import React from "react";
-import Check from "@/assets/Homepage/Check.svg";
+import Check from "/public/assets/Homepage/Check.svg";
 import Image from "next/image";
 import Link from "next/link";
 import { HomePricingArray } from "@/constants/HomePricingArray";

@@ -1,6 +1,6 @@
 import React from "react";
 import FrequentlyAskedQuestionDropDown from "./FrequentlyAskedQuestionDropDown";
-import FAQTopBorder from "@/assets/Homepage/FAQTopBorder.svg";
+import FAQTopBorder from "/public/assets/Homepage/FAQTopBorder.svg";
 import Image from "next/image";
 import { FrequentlyAskedQuestionInterface } from "./FrequentlyAskedQuestionDropDown";
 

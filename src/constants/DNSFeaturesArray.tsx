@@ -1,9 +1,9 @@
-import ManagedDNS from "@/assets/DNS/ManagedDNS.png";
-import CloudBasedInfrastructure from "@/assets/DNS/CloudBasedInfrastructure.png";
-import DDoSProtectedDNS from "@/assets/DNS/DDoSProtectedDNS.png";
-import BuildInCDN from "@/assets/DNS/Build-InCDN.png";
-import EDNSClientSubnetSupport from "@/assets/DNS/EDNSClientSubnetSupport.png";
-import ProfessionalFeaturesAndTools from "@/assets/DNS/ProfessionalFeaturesAndTools.png";
+import ManagedDNS from "/public/assets/DNS/ManagedDNS.png";
+import CloudBasedInfrastructure from "/public/assets/DNS/CloudBasedInfrastructure.png";
+import DDoSProtectedDNS from "/public/assets/DNS/DDoSProtectedDNS.png";
+import BuildInCDN from "/public/assets/DNS/Build-InCDN.png";
+import EDNSClientSubnetSupport from "/public/assets/DNS/EDNSClientSubnetSupport.png";
+import ProfessionalFeaturesAndTools from "/public/assets/DNS/ProfessionalFeaturesAndTools.png";
 
 
 export const DNSFeaturesArray = [

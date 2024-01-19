@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import EncodingImage from "@/assets/HighlightProducts/Encoding.png";
+import EncodingImage from "/public/assets/HighlightProducts/Encoding.png";
 
 
 const Encoding = () => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import HowDNSWorksImage from "@/assets/DNS/HowDNSWorks.png";
-import CheckRoundedFilled from "@/assets/GlobalImages/CheckRoundedFilled.png";
+import HowDNSWorksImage from "/public/assets/DNS/HowDNSWorks.png";
+import CheckRoundedFilled from "/public/assets/GlobalImages/CheckRoundedFilled.png";
 
 const HowDNSWorks = () => {
     return (

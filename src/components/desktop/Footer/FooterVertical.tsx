@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import RecurringArrow from "@/assets/GlobalImages/RecurringArrow.svg";
+import RecurringArrow from "/public/assets/GlobalImages/RecurringArrow.svg";
 import Image from "next/image";
 
 interface ElementListInterface {

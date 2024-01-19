@@ -1,20 +1,20 @@
-import CloudStorage from "@/assets/FeatureBox/CloudStorage.svg";
-import ContentDeliveryNetwork from "@/assets/FeatureBox/ContentDeliveryNetwork.svg";
-import DNS from "@/assets/FeatureBox/DNS.svg";
-import Encoding from "@/assets/FeatureBox/Encoding.svg";
-import ImageOptimizer from "@/assets/FeatureBox/ImageOptimizer.svg";
-import MultiStreaming from "@/assets/FeatureBox/MultiStreaming.svg";
-import YoutubeSync from "@/assets/FeatureBox/YoutubeSync.svg";
-import LiveStreaming from "@/assets/Icons/LiveStreaming.svg";
-import LiveTranscoding from "@/assets/Icons/LiveTranscoding.svg";
-import DeliveryAcceleration from "@/assets/Icons/DeliveryAcceleration.svg";
-import DeliveryAccelerationPlus from "@/assets/Icons/DeliveryAccelerationPlus.svg";
-import SimpleDNS from "@/assets/Icons/SimpleDNS.svg";
-import TrafficDirector from "@/assets/Icons/TrafficDirector.svg";
-import VideoEncoding from "@/assets/Icons/VideoEncoding.svg";
-import VideoStreaming from "@/assets/Icons/VideoStreaming.svg";
+import CloudStorage from "/public/assets/FeatureBox/CloudStorage.svg";
+import ContentDeliveryNetwork from "/public/assets/FeatureBox/ContentDeliveryNetwork.svg";
+import DNS from "/public/assets/FeatureBox/DNS.svg";
+import Encoding from "/public/assets/FeatureBox/Encoding.svg";
+import ImageOptimizer from "/public/assets/FeatureBox/ImageOptimizer.svg";
+import MultiStreaming from "/public/assets/FeatureBox/MultiStreaming.svg";
+import YoutubeSync from "/public/assets/FeatureBox/YoutubeSync.svg";
+import LiveStreaming from "/public/assets/Icons/LiveStreaming.svg";
+import LiveTranscoding from "/public/assets/Icons/LiveTranscoding.svg";
+import DeliveryAcceleration from "/public/assets/Icons/DeliveryAcceleration.svg";
+import DeliveryAccelerationPlus from "/public/assets/Icons/DeliveryAccelerationPlus.svg";
+import SimpleDNS from "/public/assets/Icons/SimpleDNS.svg";
+import TrafficDirector from "/public/assets/Icons/TrafficDirector.svg";
+import VideoEncoding from "/public/assets/Icons/VideoEncoding.svg";
+import VideoStreaming from "/public/assets/Icons/VideoStreaming.svg";
 
-import DropRightArrow from "@/assets/GlobalImages/DropRightArrow.svg";
+import DropRightArrow from "/public/assets/GlobalImages/DropRightArrow.svg";
 import { link } from "fs";
 
 export const FeatureBoxArray = [

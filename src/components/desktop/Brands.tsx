@@ -1,21 +1,21 @@
 import React from 'react';
 import Image from 'next/image';
-import BrandARYDigital from "@/assets/BrandsLogo/BrandARYDigital.svg";
-import BrandCWS from "@/assets/BrandsLogo/BrandCWS.svg";
-import BrandIBCLive from "@/assets/BrandsLogo/BrandIBCLive.svg";
-import BrandIQBroadcast from "@/assets/BrandsLogo/BrandIQBroadcast.svg";
-import BrandInterlinkMultiMedia from "@/assets/BrandsLogo/BrandInterlinkMultiMedia.svg";
-import BrandLondonReal from "@/assets/BrandsLogo/BrandLondonReal.svg";
-import BrandMSLive from "@/assets/BrandsLogo/BrandMSLive.svg";
-import BrandMediaOne from "@/assets/BrandsLogo/BrandMediaOne.svg";
-import BrandMuusicTyme from "@/assets/BrandsLogo/BrandMuusicTyme.svg";
-import BrandSLMedia from "@/assets/BrandsLogo/BrandSLMedia.svg";
-import BrandTeletica from "@/assets/BrandsLogo/BrandTeletica.svg";
-import BrandVerve from "@/assets/BrandsLogo/BrandVerve.svg";
-import BrandVivre from "@/assets/BrandsLogo/BrandVivre.svg";
-import BrandWhiteAnthymTV from "@/assets/BrandsLogo/BrandWhiteAnthymTV.svg";
-import LeftRectangle from "@/assets/BrandsLogo/LeftRectangle.png";
-import RightRectangle from "@/assets/BrandsLogo/RightRectangle.png";
+import BrandARYDigital from "/public/assets/BrandsLogo/BrandARYDigital.svg";
+import BrandCWS from "/public/assets/BrandsLogo/BrandCWS.svg";
+import BrandIBCLive from "/public/assets/BrandsLogo/BrandIBCLive.svg";
+import BrandIQBroadcast from "/public/assets/BrandsLogo/BrandIQBroadcast.svg";
+import BrandInterlinkMultiMedia from "/public/assets/BrandsLogo/BrandInterlinkMultiMedia.svg";
+import BrandLondonReal from "/public/assets/BrandsLogo/BrandLondonReal.svg";
+import BrandMSLive from "/public/assets/BrandsLogo/BrandMSLive.svg";
+import BrandMediaOne from "/public/assets/BrandsLogo/BrandMediaOne.svg";
+import BrandMuusicTyme from "/public/assets/BrandsLogo/BrandMuusicTyme.svg";
+import BrandSLMedia from "/public/assets/BrandsLogo/BrandSLMedia.svg";
+import BrandTeletica from "/public/assets/BrandsLogo/BrandTeletica.svg";
+import BrandVerve from "/public/assets/BrandsLogo/BrandVerve.svg";
+import BrandVivre from "/public/assets/BrandsLogo/BrandVivre.svg";
+import BrandWhiteAnthymTV from "/public/assets/BrandsLogo/BrandWhiteAnthymTV.svg";
+import LeftRectangle from "/public/assets/BrandsLogo/LeftRectangle.png";
+import RightRectangle from "/public/assets/BrandsLogo/RightRectangle.png";
 
  
 const Brands = () => {

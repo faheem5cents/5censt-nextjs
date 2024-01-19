@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
-import RoundedNumber1 from "@/assets/DNS/RoundedNumber1.svg"
-import RoundedNumber2 from "@/assets/DNS/RoundedNumber2.svg"
-import RoundedNumber3 from "@/assets/DNS/RoundedNumber3.svg"
-import RoundedNumber4 from "@/assets/DNS/RoundedNumber4.svg"
+import RoundedNumber1 from "/public/assets/DNS/RoundedNumber1.svg"
+import RoundedNumber2 from "/public/assets/DNS/RoundedNumber2.svg"
+import RoundedNumber3 from "/public/assets/DNS/RoundedNumber3.svg"
+import RoundedNumber4 from "/public/assets/DNS/RoundedNumber4.svg"
 
 export const RefresherArray = [
     {

@@ -1,9 +1,9 @@
-import CloudStorage from "@/assets/CDN/CloudStorage.png";
-import TierGlobalNetwork from "@/assets/CDN/TierGlobalNetwork.png";
-import TbpsNetwork from "@/assets/CDN/65TbpsNetwork.png";
-import NVMeServers from "@/assets/CDN/NVMeServers.png";
-import AntiDDoS from "@/assets/CDN/AntiDDoS.png";
-import SimpleAPI from "@/assets/CDN/SimpleAPI.png";
+import CloudStorage from "/public/assets/CDN/CloudStorage.png";
+import TierGlobalNetwork from "/public/assets/CDN/TierGlobalNetwork.png";
+import TbpsNetwork from "/public/assets/CDN/65TbpsNetwork.png";
+import NVMeServers from "/public/assets/CDN/NVMeServers.png";
+import AntiDDoS from "/public/assets/CDN/AntiDDoS.png";
+import SimpleAPI from "/public/assets/CDN/SimpleAPI.png";
 
 export const CDNAdvancedSolutionsArray = [
     {

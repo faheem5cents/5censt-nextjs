@@ -1,11 +1,11 @@
-import ExploreCpanelImage from "@/assets/GlobalImages/ExploreCpanelImage.png";
-import LiveEventStreaming from "@/assets/LiveEventStreaming.svg";
-import IPCamRestreaming from "@/assets/IPCamRestreaming.svg";
-import WebsiteAcceleration from "@/assets/WebsiteAcceleration.svg";
-import WebApplicationAcceleration from "@/assets/WebApplicationAcceleration.svg";
-import SoftwareDistribution from "@/assets/SoftwareDistribution.svg";
-import SatelliteDownlink from "@/assets/SatelliteDownlink.svg";
-import OTTPlatform from "@/assets/OTTPlatform.svg"; 
+import ExploreCpanelImage from "/public/assets/GlobalImages/ExploreCpanelImage.png";
+import LiveEventStreaming from "/public/assets/LiveEventStreaming.svg";
+import IPCamRestreaming from "/public/assets/IPCamRestreaming.svg";
+import WebsiteAcceleration from "/public/assets/WebsiteAcceleration.svg";
+import WebApplicationAcceleration from "/public/assets/WebApplicationAcceleration.svg";
+import SoftwareDistribution from "/public/assets/SoftwareDistribution.svg";
+import SatelliteDownlink from "/public/assets/SatelliteDownlink.svg";
+import OTTPlatform from "/public/assets/OTTPlatform.svg"; 
 
 export const ExploreCPanelArray = [
 	{

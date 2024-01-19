@@ -5,7 +5,7 @@ import { SliderValue } from "@nextui-org/react";
 import { CDNPricingArray } from "@/constants/CDNPricingArray";
 import CDNSummarySubComponent from "@/components/desktop/Pricing/CDNSummarySubComponent";
 import Image from "next/image";
-import DropDown from "@/assets/CDN/DropDownSummary.svg";
+import DropDown from "/public/assets/CDN/DropDownSummary.svg";
 
 type CDNPricingTypeId = "standard-network" | "enterprise-network";
 

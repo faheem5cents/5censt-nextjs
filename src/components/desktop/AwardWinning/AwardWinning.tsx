@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import AsiapacificWinter23 from "@/assets/AwardWinning/AsiapacificWinter23.svg";
-import MidMarketMidMarket23 from "@/assets/AwardWinning/MidMarketMidMarket23.svg";
-import SourceforgeFall22 from "@/assets/AwardWinning/SourceforgeFall22.svg";
-import SourceforgeWinter23 from "@/assets/AwardWinning/SourceforgeWinter23.svg";
-import UsersLoveUs from "@/assets/AwardWinning/UsersLoveUs.svg";
+import AsiapacificWinter23 from "/public/assets/AwardWinning/AsiapacificWinter23.svg";
+import MidMarketMidMarket23 from "/public/assets/AwardWinning/MidMarketMidMarket23.svg";
+import SourceforgeFall22 from "/public/assets/AwardWinning/SourceforgeFall22.svg";
+import SourceforgeWinter23 from "/public/assets/AwardWinning/SourceforgeWinter23.svg";
+import UsersLoveUs from "/public/assets/AwardWinning/UsersLoveUs.svg";
 
 const AwardWinning = () => {
 	return (

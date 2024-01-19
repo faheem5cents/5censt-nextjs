@@ -1,11 +1,11 @@
 import React from "react";
-import phonecallIcon from "@/assets/GlobalImages/phonecallIcon.png";
+import phonecallIcon from "/public/assets/GlobalImages/phonecallIcon.png";
 import Link from "next/link";
 import Image from "next/image";
-import EmailIcon from "@/assets/GlobalImages/EmailIcon.png";
-import WhatsappIcon from "@/assets/GlobalImages/WhatsappIcon.svg";
-import SayHiIcon from "@/assets/GlobalImages/SayHi.png";
-import DiscoverCallShining from "@/assets/GlobalImages/DiscoverCallShining.png";
+import EmailIcon from "/public/assets/GlobalImages/EmailIcon.png";
+import WhatsappIcon from "/public/assets/GlobalImages/WhatsappIcon.svg";
+import SayHiIcon from "/public/assets/GlobalImages/SayHi.png";
+import DiscoverCallShining from "/public/assets/GlobalImages/DiscoverCallShining.png";
 
 const CDNDiscoveryCall = () => {
     return (

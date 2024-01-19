@@ -1,11 +1,11 @@
 import React from 'react';
 import Image from "next/image";
-import SimpleDNSImg from "@/assets/DNS/SimpleDNSTopImg.png";
+import SimpleDNSImg from "/public/assets/DNS/SimpleDNSTopImg.png";
 import DNSTopBanner from './SimpleDNSTopBanner';
 import SimpleDNSFeatures from './SimpleDNSFeatures';
 import SimlpeDNSDocs from './SimpleDNSDocs';
 import SimpleDNSSamePricing from './SimpleDNSSamePricing';
-import CDNSupportYou from "@/assets/CDN/CDNSupportYou.png"
+import CDNSupportYou from "/public/assets/CDN/CDNSupportYou.png"
 import DiscoveryCall from '../DiscoveryCall';
 import FrequentlyAskedQuestion from '../FAQ/FrequentlyAskedQuestion';
 import { SimpleDNSFAQArray } from '@/constants/FrequentlyAskedQuestionArray';
@@ -50,7 +50,7 @@ const SimpleDENTab = () => {
                 </div>
                 <div className="mb-10">
                   <p className="text-[#cfcfcf] text-base leading-[1.5]">Don’t sweat over disrupted services, our skilled and highly dedicated team is at your service 24/7.</p>
-                </div>
+                </div> 
                 {SupportYouArray.map((item, index) => (
                   <div key={index} className="mb-5">
                     <h3 className="text-[#4fa83d] text-[22px] font-medium text-left capitalize mb-5">{item.title}</h3>

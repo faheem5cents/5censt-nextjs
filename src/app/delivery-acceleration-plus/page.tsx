@@ -5,8 +5,8 @@ import WebAcceleration from "@/components/desktop/WebAcceleration/WebAcceleratio
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import DeliveryAccelerationPlusDashboard from "@/assets/RobustFeature/Delivery-Acceleration-Plus-Dashboard.gif";
-import Globe from "@/assets/GlobalImages/Globe.svg";
+import DeliveryAccelerationPlusDashboard from "/public/assets/RobustFeature/Delivery-Acceleration-Plus-Dashboard.gif";
+import Globe from "/public/assets/GlobalImages/Globe.svg";
 import ClientAndExperience from "@/components/desktop/ClientAndExperience/ClientAndExperience";
 import { DeliveryAccelerationPlusFrequentlyAskedQuestionArray } from "@/constants/FrequentlyAskedQuestionArray";
 import FrequentlyAskedQuestionDropDown from "@/components/desktop/FAQ/FrequentlyAskedQuestionDropDown";

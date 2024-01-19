@@ -3,16 +3,17 @@ import CDNTopBanner from '../TopBanner';
 import Image from 'next/image';
 import { VideoEndocingVideoTranscodingArray } from '@/constants/VideoEndocingVideoTranscodingArray';
 import { VSEncodingFeaturesArray } from '@/constants/VSEncodingFeaturesArray';
-import QuarterCircleLeft from "@/assets/CDN/QuarterCircleLeft.svg";
-import CurveLinesRight from "@/assets/CDN/CurveLinesRight.svg";
+import QuarterCircleLeft from "/public/assets/CDN/QuarterCircleLeft.svg";
+import CurveLinesRight from "/public/assets/CDN/CurveLinesRight.svg";
 import HighlightsCounter from '../HighlightsCounter';
 import ExploreDashboard from '../ExploreDashboard';
 import VSConstantMonitor from './VSConstantMonitor';
 import DiscoveryCall from '../DiscoveryCall';
 import VSQuestionsAndBlog from './VSQuestionsAndBlog';
 import ClientAndExperience from '../ClientAndExperience/ClientAndExperience';
-import SeamlessCoverageForm from '../CDN/SeamlessCoverageForm'; 
- 
+import SeamlessCoverageForm from '../CDN/SeamlessCoverageForm';
+import ProductFeatures from '../ProductFeatures';
+
 const VSVideoEncodingTab = () => {
     return (
         <>
@@ -45,36 +46,10 @@ const VSVideoEncodingTab = () => {
                 </div>
             </div>
             <HighlightsCounter />
-            <div className='py-[90px] bg-[#121314]'>
-                <div className='max-w-[1140px] mx-auto'>
-                    <div className='p-[10px]'>
-                        <div className='mb-5 mx-[10%]'>
-                            <h2 className='text-[40px] text-white text-center font-semibold leading-[1.4em]'>
-                                <span className='text-[#4fa83d]'>Gateway to enterprise networks </span> with <br /> sturdy features</h2>
-                        </div>
-                        <div className='mb-5 mx-[10%]'>
-                            <p className='text-base text-[#cfcfcf] text-center leading-[1.5]'>
-                                No compromise on quality with advanced, reliable, and smart video encoding power. No setup fee, no hidden charges and no need for expensive hardware and software</p>
-                        </div>
-                        <div className='mt-[80px]'>
-                            <div className='flex flex-col md:flex-row items-start flex-wrap justify-between gap-y-10'>
-                                {VSEncodingFeaturesArray.map((item, index) => (
-                                    <div key={index} className='w-full md:w-[29.5%]'>
-                                        <div className='flex flex-col'>
-                                            <div className='mb-5 flex justify-center'>
-                                                <Image className='w-full max-w-[378px] md:w-full' src={item.img} alt='Live Recording DVR' />
-                                            </div>
-                                            <div className='mb-5'>
-                                                <h3 className='text-[22px] text-[#4fa83d] font-semibold text-center leading-none'>{item.heading}</h3>
-                                            </div>
-                                            <p className='text-[#cfcfcf] text-base text-center leading-[1.5] mx-[10%]'>{item.description}</p>
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            <div className='bg-[#121314]'>
+                <ProductFeatures
+                    heading={"<span class='text-[#4fa83d]'>Gateway to enterprise networks </span> with <br /> sturdy features"}
+                    CDNLiveStreamingArray={VSEncodingFeaturesArray} />
             </div>
             <ExploreDashboard />
             <VSConstantMonitor />
@@ -86,7 +61,7 @@ const VSVideoEncodingTab = () => {
             <VSQuestionsAndBlog />
             <ClientAndExperience description={'Join The Hundreds Of Thousands Of Happy Subscribers. <span class="text-[#4FA83D]">See What They are Saying </span> '} />
             <SeamlessCoverageForm
-                heading='Get Started With Seamless Encoding' /> 
+                heading='Get Started With Seamless Encoding' />
         </>
     )
 }

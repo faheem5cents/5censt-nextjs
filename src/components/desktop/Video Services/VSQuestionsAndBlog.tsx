@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import Image from 'next/image';
-import VODTranscodingEncodingBlog from "@/assets/VideoService/VODTranscodingEncodingBlog.png"
+import VODTranscodingEncodingBlog from "/public/assets/VideoService/VODTranscodingEncodingBlog.png"
 
 const VSQuestionsAndBlog = () => {
     return (

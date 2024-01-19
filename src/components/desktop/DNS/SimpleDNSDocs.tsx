@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import dns from "@/assets/DNS/DNSIcon.svg";
+import dns from "/public/assets/DNS/DNSIcon.svg";
 import { SimpleDNSDocsArray } from '@/constants/SimpleDNSDocsArray';
 
 const SimlpeDNSDocs = () => {

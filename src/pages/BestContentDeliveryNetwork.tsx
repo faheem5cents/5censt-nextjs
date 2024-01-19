@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import BestCDN from "@/assets/BestCDN/IndiaFlag.png";
-import CheckRounded from "@/assets/BestCDN/CheckRounded.svg";
-import HttpPull from "@/assets/BestCDN/HttpPull.svg";
-import HttpPush from "@/assets/BestCDN/HttpPush.svg";
-import OTTMarketBg from "@/assets/BestCDN/OTTMarketBg.png";
+import BestCDN from "/public/assets/BestCDN/IndiaFlag.png";
+import CheckRounded from "/public/assets/BestCDN/CheckRounded.svg";
+import HttpPull from "/public/assets/BestCDN/HttpPull.svg";
+import HttpPush from "/public/assets/BestCDN/HttpPush.svg";
+import OTTMarketBg from "/public/assets/BestCDN/OTTMarketBg.png";
 import TryForFreeForm from '@/components/desktop/TryForFreeForm';
 
 const BestContentDeliveryNetwork = () => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import LongTick from "@/assets/VideoService/LongTick.svg";
-import Charges from "@/assets/VideoService/Charges.svg";
+import LongTick from "/public/assets/VideoService/LongTick.svg";
+import Charges from "/public/assets/VideoService/Charges.svg";
 import Link from 'next/link';
 
 const VSMultiStreamingPlansPricing = () => {

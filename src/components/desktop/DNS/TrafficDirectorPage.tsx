@@ -2,9 +2,9 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import SimpleDENTab from './SimpleDNSTab';
-import DNSIcon from "@/assets/DNS/DNSIcon.svg";
-import SimpleDNSIcon from "@/assets/DNS/SimpleDNSIcon.svg";
-import TrafficDirectorIcon from "@/assets/DNS/TrafficDirectorIcon.svg";
+import DNSIcon from "/public/assets/DNS/DNSIcon.svg";
+import SimpleDNSIcon from "/public/assets/DNS/SimpleDNSIcon.svg";
+import TrafficDirectorIcon from "/public/assets/DNS/TrafficDirectorIcon.svg";
 import DNSTab from './DNSTab';
 import TrafficDirectorTab from './TrafficDirectorTab';
 

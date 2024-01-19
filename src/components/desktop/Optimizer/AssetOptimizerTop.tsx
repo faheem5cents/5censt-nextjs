@@ -1,5 +1,5 @@
 import React from 'react';
-import AssetOptimizerTopImg from "@/assets/Optimizer/AssetOptimizerTopImg.png";
+import AssetOptimizerTopImg from "/public/assets/Optimizer/AssetOptimizerTopImg.png";
 import Link from 'next/link';
 import Image from 'next/image';
 

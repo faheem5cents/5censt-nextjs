@@ -1,6 +1,6 @@
 import React from 'react';
-import MiddleVerticalBorder from "@/assets/DNS/SimplePricingMiddleVerticalBorder.svg";
-import MiddleHorizontalBorder from "@/assets/DNS/SimplePricingMiddleHorizontalBorder.svg";
+import MiddleVerticalBorder from "/public/assets/DNS/SimplePricingMiddleVerticalBorder.svg";
+import MiddleHorizontalBorder from "/public/assets/DNS/SimplePricingMiddleHorizontalBorder.svg";
 import Image from 'next/image';
 import Link from 'next/link';
 

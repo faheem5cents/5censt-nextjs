@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import VerticalLine from "@/assets/GlobalImages/VerticalLine.svg";
-import ExploreDashboardImg from "@/assets/GlobalImages/ExploreDashboardImg.png";
+import VerticalLine from "/public/assets/GlobalImages/VerticalLine.svg";
+import ExploreDashboardImg from "/public/assets/GlobalImages/ExploreDashboardImg.png";
 
 const ExploreDashboard = () => {
     return (

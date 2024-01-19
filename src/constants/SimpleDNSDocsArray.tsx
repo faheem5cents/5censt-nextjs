@@ -1,9 +1,9 @@
-import DNSSECIcon from "@/assets/DNS/DNSSECIcon.svg";
-import TTLManagementIcon from "@/assets/DNS/TTLManagementIcon.svg";
-import RecordsWeSupportIcon from "@/assets/DNS/RecordsWeSupportIcon.svg";
-import EverythingUnlimitedIcon from "@/assets/DNS/EverythingUnlimitedIcon.svg";
-import DNSstatisticsIcon from "@/assets/DNS/DNSstatisticsIcon.svg";
-import APIIcon from "@/assets/DNS/APIIcon.svg";
+import DNSSECIcon from "/public/assets/DNS/DNSSECIcon.svg";
+import TTLManagementIcon from "/public/assets/DNS/TTLManagementIcon.svg";
+import RecordsWeSupportIcon from "/public/assets/DNS/RecordsWeSupportIcon.svg";
+import EverythingUnlimitedIcon from "/public/assets/DNS/EverythingUnlimitedIcon.svg";
+import DNSstatisticsIcon from "/public/assets/DNS/DNSstatisticsIcon.svg";
+import APIIcon from "/public/assets/DNS/APIIcon.svg";
 
 export const SimpleDNSDocsArray = [ 
     {

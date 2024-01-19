@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import RecurringArrow from "@/assets/GlobalImages/RecurringArrow.svg";
+import RecurringArrow from "/public/assets/GlobalImages/RecurringArrow.svg";
 import Image from "next/image";
-import DropDownArrow from "@/assets/GlobalImages/DropDownArrow.svg";
-import DropUpArrow from "@/assets/GlobalImages/DropUpArrow.svg";
+import DropDownArrow from "/public/assets/GlobalImages/DropDownArrow.svg";
+import DropUpArrow from "/public/assets/GlobalImages/DropUpArrow.svg";
 import { useState } from "react";
 
 interface ElementListInterface {

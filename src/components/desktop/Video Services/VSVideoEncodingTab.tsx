@@ -1,17 +1,18 @@
 import React from 'react';
 import Image from 'next/image';
 import CDNTopBanner from '../TopBanner';
-import VSLiveTranscodingTopImage from "@/assets/VideoService/VSLiveTranscodingTopImage.png";
-import VSVideoEncodingFeatures from './VSVideoEncodingFeatures';
+import VSLiveTranscodingTopImage from "/public/assets/VideoService/VSLiveTranscodingTopImage.png";
 import DiscoveryCall from '../DiscoveryCall';
 import FrequentlyAskedQuestion from '../FAQ/FrequentlyAskedQuestion';
 import ClientAndExperience from '../ClientAndExperience/ClientAndExperience';
 import SeamlessCoverageForm from '../CDN/SeamlessCoverageForm';
 import { CDNVideoEncodingFAQArray } from '@/constants/FrequentlyAskedQuestionArray';
+import ProductFeatures from '../ProductFeatures';
+import { VSVideoEncodingFeaturesArray } from '@/constants/VSVideoEncodingFeatureArray';
 
- 
+
 const VSVideoEncodingTab = () => {
-    return (  
+    return (
         <>
             <CDNTopBanner
                 heading='<span class="text-[#4fa83d]"> Video Encoding</span>'
@@ -22,7 +23,11 @@ const VSVideoEncodingTab = () => {
                     <Image className='md:w-[800px]' src={VSLiveTranscodingTopImage} alt='CDN Live Streaming' />
                 </div>
             </div>
-            <VSVideoEncodingFeatures />
+            <div className='bg-[#121314]'>
+                <ProductFeatures heading={`Reach Larger Audience With
+                                <span class='text-[#4fa83d]'> Efficient Workflow</span>`}
+                    CDNLiveStreamingArray={VSVideoEncodingFeaturesArray} />
+            </div>
             <DiscoveryCall
                 heading={'Improve your viewer’s experience by <span class="text-[#4fa83d]"> delivering live streams</span> in multiple bitrates.'}
                 subheading={'Ensure a buffer-free streaming experience for your viewers'}

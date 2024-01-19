@@ -1,5 +1,5 @@
 import React from 'react';
-import AlaCarte from "@/assets/Homepage/AlaCarte.svg";
+import AlaCarte from "/public/assets/Homepage/AlaCarte.svg";
 import Image from 'next/image';
 import Link from 'next/link';
 

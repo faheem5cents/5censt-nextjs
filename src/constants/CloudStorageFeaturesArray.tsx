@@ -1,12 +1,12 @@
-import DataRedundancy from "@/assets/CloudStorage/3xDataRedundancy.png";
-import PremiumNetwork from "@/assets/CloudStorage/PremiumNetwork.png";
-import FlatPricing from "@/assets/CloudStorage/FlatPricing.png";
-import SSL from "@/assets/CloudStorage/SSL.png";
-import CustomCNAME from "@/assets/CloudStorage/CustomCNAME.png";
-import SecuredDelivery from "@/assets/CloudStorage/SecuredDelivery.png";
-import SLA from "@/assets/CloudStorage/99SLA.png";
-import ReportsAnalytics from "@/assets/CloudStorage/Reports&Analytics.png";
-import Support from "@/assets/CloudStorage/Support.png";
+import DataRedundancy from "/public/assets/CloudStorage/3xDataRedundancy.png";
+import PremiumNetwork from "/public/assets/CloudStorage/PremiumNetwork.png";
+import FlatPricing from "/public/assets/CloudStorage/FlatPricing.png";
+import SSL from "/public/assets/CloudStorage/SSL.png";
+import CustomCNAME from "/public/assets/CloudStorage/CustomCNAME.png";
+import SecuredDelivery from "/public/assets/CloudStorage/SecuredDelivery.png";
+import SLA from "/public/assets/CloudStorage/99SLA.png";
+import ReportsAnalytics from "/public/assets/CloudStorage/Reports&Analytics.png";
+import Support from "/public/assets/CloudStorage/Support.png";
 
 export const CloudStorageFeaturesArray = [
     {

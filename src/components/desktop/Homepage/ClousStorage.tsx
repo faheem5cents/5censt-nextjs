@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import CloudStorageImage from "@/assets/HighlightProducts/CloudStorage.png";
+import CloudStorageImage from "/public/assets/HighlightProducts/CloudStorage.png";
 
 const ClousStorage = () => {
     return (

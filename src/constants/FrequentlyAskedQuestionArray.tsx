@@ -561,3 +561,31 @@ export const TrafficDirectorFAQArray = [
 		description: "Yes",
 	},
 ]
+
+export const LiveEventStreamingFAQArray = [
+	{
+		title:
+			'What is Live Streaming Latency?',
+		description: "Live streaming latency is 30-the 40s",
+	},
+	{
+		title:
+			'How many channels can I Integrate with my Live streaming?',
+		description: "Clients can configure the channel integration in their accounts.",
+	},
+	{
+		title:
+			'What happens when my Bandwidth video limit is exceeded?',
+		description: "Bandwidth overage protection will be enabled i.e 120% of available bandwidth",
+	},
+	{
+		title:
+			'What is Video Frame Rate?',
+		description: "Video Frame Rate is the number of frames per second.",
+	},
+	{
+		title:
+			'Is it possible to rewind the content of a live stream?',
+		description: "Yes, the client needs to enable NDVR",
+	},
+]

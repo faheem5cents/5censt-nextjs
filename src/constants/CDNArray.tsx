@@ -1,6 +1,6 @@
-import LiveStreaming from "@/assets/CDN/LiveStreaming.svg";
-import VideoStreaming from "@/assets/CDN/VideoStreaming.svg";
-import DeliveryAcceleration from "@/assets/CDN/DeliveryAcceleration.svg";
+import LiveStreaming from "/public/assets/CDN/LiveStreaming.svg";
+import VideoStreaming from "/public/assets/CDN/VideoStreaming.svg";
+import DeliveryAcceleration from "/public/assets/CDN/DeliveryAcceleration.svg";
 
 export const CDNArray = [ 
     {

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import StarFilled from "@/assets/ClientExperience/StarFilled.svg";
-import StarEmpty from "@/assets/ClientExperience/StarEmpty.svg";
+import StarFilled from "/public/assets/ClientExperience/StarFilled.svg";
+import StarEmpty from "/public/assets/ClientExperience/StarEmpty.svg";
 
 interface ClientAndExperienceCardProps {
 	image: string;

@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
-import ExploreCpanelImage from "@/assets/GlobalImages/ExploreCpanelImage.png";
-import CDNSupportYou from "@/assets/CDN/CDNSupportYou.png"
+import ExploreCpanelImage from "/public/assets/GlobalImages/ExploreCpanelImage.png";
+import CDNSupportYou from "/public/assets/CDN/CDNSupportYou.png"
 
-const ExploreDashboardCDN = () => {
+const ExploreDashboardCDN = () => { 
     return (
         <>
             <div className="md:py-[90px]">

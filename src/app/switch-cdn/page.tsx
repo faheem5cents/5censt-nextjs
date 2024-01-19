@@ -1,13 +1,13 @@
 import React from "react";
-import hollowCircle from "@/assets/SwitchCDN/hollowCircle.svg";
+import hollowCircle from "/public/assets/SwitchCDN/hollowCircle.svg";
 import Image from "next/image";
 import { CDNProviderArray } from "@/constants/CDNProviderArray";
 import CDNTab from "@/components/desktop/CDN/CDNTab";
-import QuarterCircleLeft from "@/assets/CDN/QuarterCircleLeft.svg";
-import CurveLinesRight from "@/assets/CDN/CurveLinesRight.svg";
+import QuarterCircleLeft from "/public/assets/CDN/QuarterCircleLeft.svg";
+import CurveLinesRight from "/public/assets/CDN/CurveLinesRight.svg";
 import { CDNArray } from "@/constants/CDNArray";
 import { SwitchCDNArray } from "@/constants/SwitchCDNArray";
-import CDNSupportYou from "@/assets/CDN/CDNSupportYou.png";
+import CDNSupportYou from "/public/assets/CDN/CDNSupportYou.png";
 import ClientAndExperience from "@/components/desktop/ClientAndExperience/ClientAndExperience";
 import TryForFreeForm from "@/components/desktop/TryForFreeForm";
 import Brands from "@/components/desktop/Brands";
@@ -146,9 +146,7 @@ const SwitchCDN = () => {
 				/>
 			</div>
 			<div className="py-20">
-				<TryForFreeForm
-					heading={"Give Your Customers The Best Viewing Experience."}
-				/>
+				<TryForFreeForm heading={"Give Your Customers The Best Viewing Experience."} />
 			</div>
 			<div className="w-full pb-40">
 				<Brands />

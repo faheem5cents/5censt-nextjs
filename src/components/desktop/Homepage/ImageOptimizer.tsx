@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import ImageOptimizerImage from "@/assets/HighlightProducts/ImageOptimizer.png";
+import ImageOptimizerImage from "/public/assets/HighlightProducts/ImageOptimizer.png";
 
 const ImageOptimizer = () => {
     return (

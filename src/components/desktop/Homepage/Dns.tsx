@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import DNSImage from "@/assets/HighlightProducts/DNS.png";
+import DNSImage from "/public/assets/HighlightProducts/DNS.png";
 
 const Dns = () => {
     return (

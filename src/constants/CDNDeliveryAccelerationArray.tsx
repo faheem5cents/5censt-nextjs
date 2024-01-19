@@ -1,12 +1,12 @@
-import DAEdgeRules from "@/assets/CDN/DAEdgeRules.png";
-import DAGeoblocking from "@/assets/CDN/DAGeoblocking.png";
-import DAHTTPLiveStream from "@/assets/CDN/DAHTTPLiveStream.png";
-import DAOriginShield from "@/assets/CDN/DAOriginShield.png";
-import DAPurge from "@/assets/CDN/DAPurge.png";
-import DARawLogs from "@/assets/CDN/DARawLogs.png";
-import DAReferrerAccessControl from "@/assets/CDN/DAReferrerAccessControl.png";
-import DASSL from "@/assets/CDN/DASSL.png";
-import DATokenSecurity from "@/assets/CDN/DATokenSecurity.png";
+import DAEdgeRules from "/public/assets/CDN/DAEdgeRules.png";
+import DAGeoblocking from "/public/assets/CDN/DAGeoblocking.png";
+import DAHTTPLiveStream from "/public/assets/CDN/DAHTTPLiveStream.png";
+import DAOriginShield from "/public/assets/CDN/DAOriginShield.png";
+import DAPurge from "/public/assets/CDN/DAPurge.png";
+import DARawLogs from "/public/assets/CDN/DARawLogs.png";
+import DAReferrerAccessControl from "/public/assets/CDN/DAReferrerAccessControl.png";
+import DASSL from "/public/assets/CDN/DASSL.png";
+import DATokenSecurity from "/public/assets/CDN/DATokenSecurity.png";
 
 export const CDNDeliveryAccelerationArray = [
     {

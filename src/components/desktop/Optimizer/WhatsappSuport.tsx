@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import WhatsappIcon from "@/assets/GlobalImages/whatsappChat.svg";
-import WhatsappSupportImage from "@/assets/Optimizer/WhatsappSupportImage.svg";
+import WhatsappIcon from "/public/assets/GlobalImages/whatsappChat.svg";
+import WhatsappSupportImage from "/public/assets/Optimizer/WhatsappSupportImage.svg";
 
 const WhatsappSuport = () => {
     return (

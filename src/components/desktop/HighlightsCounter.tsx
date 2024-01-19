@@ -1,6 +1,8 @@
+"use client"
 import React from "react";
 import Image from "next/image";
-import HighlightDownArrow from "@/assets/GlobalImages/HighlightDownArrow.svg";
+import HighlightDownArrow from "/public/assets/GlobalImages/HighlightDownArrow.svg";
+import CountUp from "react-countup";
 
 const HighlightsCounter = () => {
 	return (
@@ -33,7 +35,8 @@ const HighlightsCounter = () => {
 								<div className="md:w-1/3 w-full flex justify-center items-center">
 									<div className="flex flex-col items-center justify-center p-[10px]">
 										<div className="text-[#4fa83d] text-[42px] font-black leading-none">
-											5000<span>+</span>
+											<CountUp start={0} end={5000} duration={3}  />
+											<span>+</span>
 										</div>
 										<p className="text-white text-[21px] leading-[2.5]">
 											Happy Users
@@ -45,14 +48,16 @@ const HighlightsCounter = () => {
 								>
 									<div className="flex flex-col items-center justify-center p-[10px]">
 										<div className="my-[90px] text-[#4fa83d] text-[42px] font-black leading-none">
-											70<span>+</span>
+											<CountUp start={0} end={70} duration={3} />
+											<span>+</span>
 										</div>
 									</div>
 								</div>
 								<div className="md:w-1/3 w-full flex justify-center items-center">
 									<div className="flex flex-col items-center justify-center p-[10px]">
 										<div className="text-[#4fa83d] text-[42px] font-black leading-none">
-											2<span>+</span>
+											<CountUp start={0} end={2} duration={10} />
+											<span>+</span>
 										</div>
 										<p className="text-white text-[21px] leading-[2.5]">
 											Network Capacity (Tbps)

@@ -4,15 +4,16 @@ import Link from 'next/link';
 import { CDNDeliveryAccelerationArray } from '@/constants/CDNDeliveryAccelerationArray';
 import { CDNDeliveryAccelerationFAQArray } from '@/constants/FrequentlyAskedQuestionArray';
 import { DeliveryAccelerationPlusFrequentlyAskedQuestionArray } from "@/constants/FrequentlyAskedQuestionArray";
-// import CDNDeliveryAccelerationImg from "@/assets/CDN/CDNDeliveryAccelerationImg.png";
+import CDNDeliveryAccelerationImg from "/public/assets/CDN/CDNDeliveryAccelerationImg.png";
 import CDNTopBanner from '../TopBanner';
 import DiscoveryCall from '../DiscoveryCall';
 import CDNDASpeedUp from './CDNDASpeedUp';
 import FrequentlyAskedQuestion from '../FAQ/FrequentlyAskedQuestion';
 import ClientAndExperience from '../ClientAndExperience/ClientAndExperience';
 import SeamlessCoverageForm from './SeamlessCoverageForm';
-// import wordPressIcon from "@/assets/CDN/wordPressIcon.png";
+import wordPressIcon from "/public/assets/CDN/wordPressIcon.png";
 import FrequentlyAskedQuestionDropDown from "@/components/desktop/FAQ/FrequentlyAskedQuestionDropDown";
+import ProductFeatures from '../ProductFeatures';
 
 const CDNdeliveryAcceleration = () => {
     return (
@@ -24,37 +25,13 @@ const CDNdeliveryAcceleration = () => {
             />
             <div className='w-full'>
                 <div className='p-[10px] flex justify-center items-center'>
-                    {/* <Image className='w-[850px]' src={CDNDeliveryAccelerationImg} alt='CDN Live Streaming' /> */}
+                    <Image className='w-[850px]' src={CDNDeliveryAccelerationImg} alt='CDN Live Streaming' />
                 </div>
             </div>
             <CDNDASpeedUp />
-            <div className='pt-[90px]'>
-                <div className='max-w-[1140px] mx-auto'>
-                    <div className='p-[10px]'>
-                        <div className='mb-5'>
-                            <h2 className='text-[40px] text-white text-center font-semibold leading-[1.4em]'>
-                                <span className='text-[#4fa83d]'>Improve your web performance </span> with our mighty features</h2>
-                        </div>
-                        <div className='mt-[80px]'>
-                            <div className='flex flex-col md:flex-row items-start flex-wrap justify-between gap-y-10'>
-                                {CDNDeliveryAccelerationArray.map((item, index) => (
-                                    <div key={index} className='w-full md:w-[29.5%]'>
-                                        <div className='flex flex-col'>
-                                            <div className='mb-5 flex justify-center'>
-                                                <Image className='w-full max-w-[378px] md:w-full' src={item.img} alt='Live Recording DVR' />
-                                            </div>
-                                            <div className='mb-5'>
-                                                <h3 className='text-[22px] text-[#4fa83d] text-left leading-none'>{item.heading}</h3>
-                                            </div>
-                                            <p className='text-[#cfcfcf] text-base leading-[1.5]'>{item.description}</p>
-                                        </div>
-                                    </div>
-                                ))}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <ProductFeatures 
+            heading={"<span class='text-[#4fa83d]'>Improve your web performance </span> with our mighty features"} 
+            CDNLiveStreamingArray={CDNDeliveryAccelerationArray} />
             <DiscoveryCall
                 heading='How about a <span class="text-[#4fa83d]">lightning-fast browsing </span> experience?'
                 subheading="Exceptional performance without any compromise on the quality"
@@ -70,7 +47,7 @@ const CDNdeliveryAcceleration = () => {
                         <div className="flex justify-center items-center gap-2">
                             <Link className='text-white text-[22px] font-semibold' href="#">Try our WordPress Plugin today!
                             </Link>
-                            {/* <Image className='w-[68px]' src={wordPressIcon} alt='' /> */}
+                            <Image className='w-[68px]' src={wordPressIcon} alt='' />
                         </div>
                         <div className='flex justify-center'>
                             <Link className='bg-[#4fa83d] text-base font-semibold text-white border border-[#4fa83d] rounded-[10px] px-10 py-5 leading-none transition duration-300 hover:bg-transparent hover:text-[#4fa83d]' href="#">Try Now</Link>

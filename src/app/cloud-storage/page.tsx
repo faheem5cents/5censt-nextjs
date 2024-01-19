@@ -1,6 +1,6 @@
 import React from 'react';
 import CDNTopBanner from '@/components/desktop/TopBanner';
-import CloudStorageTopImg from "@/assets/CloudStorage/CloudStorageTopImg.png";
+import CloudStorageTopImg from "/public/assets/CloudStorage/CloudStorageTopImg.png";
 import Image from 'next/image';
 import CloudStorageFeatures from '@/components/desktop/CloudStorageFeatures';
 import DiscoveryCall from '@/components/desktop/DiscoveryCall';

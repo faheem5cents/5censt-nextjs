@@ -1,9 +1,9 @@
-import BuiltIntoCDN from "@/assets/VideoService/BuiltIntoCDN.png";
-import CloudFramework from "@/assets/VideoService/CloudFramework.png";
-import FlexibleInfrastructure from "@/assets/VideoService/FlexibleInfrastructure.png";
-import SimpleAPI from "@/assets/VideoService/SimpleAPI.png";
-import VastCustomization from "@/assets/VideoService/VastCustomization.png";
-import VideoManipulationTransmuxing from "@/assets/VideoService/VideoManipulation&Transmuxing.png";
+import BuiltIntoCDN from "/public/assets/VideoService/BuiltIntoCDN.png";
+import CloudFramework from "/public/assets/VideoService/CloudFramework.png";
+import FlexibleInfrastructure from "/public/assets/VideoService/FlexibleInfrastructure.png";
+import SimpleAPI from "/public/assets/VideoService/SimpleAPI.png";
+import VastCustomization from "/public/assets/VideoService/VastCustomization.png";
+import VideoManipulationTransmuxing from "/public/assets/VideoService/VideoManipulation&Transmuxing.png";
 
 export const VSEncodingFeaturesArray = [ 
     {

@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import RokectOutlineIcon from "@/assets/Optimizer/RocketOutline.svg";
+import RokectOutlineIcon from "/public/assets/Optimizer/RocketOutline.svg";
 
 const AdaptativeImageCompression = () => {
     return (

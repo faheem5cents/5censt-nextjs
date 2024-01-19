@@ -1,8 +1,8 @@
-import ClientSai from "@/assets/ClientExperience/client-Sai.svg";
-import ClientHannah from "@/assets/ClientExperience/client-Hannah.svg";
-import ClientManoj from "@/assets/ClientExperience/client-Manoj.svg";
-import ClientShaheer from "@/assets/ClientExperience/client-Shaheer.svg";
-import ClientSimran from "@/assets/ClientExperience/client-Simran.svg";
+import ClientSai from "/public/assets/ClientExperience/client-Sai.svg";
+import ClientHannah from "/public/assets/ClientExperience/client-Hannah.svg";
+import ClientManoj from "/public/assets/ClientExperience/client-Manoj.svg";
+import ClientShaheer from "/public/assets/ClientExperience/client-Shaheer.svg";
+import ClientSimran from "/public/assets/ClientExperience/client-Simran.svg";
 
 export const ClientAndExperienceArray = [
 	{

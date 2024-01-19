@@ -7,8 +7,8 @@ import Dns from './Dns';
 import ImageOptimizer from './ImageOptimizer';
 import YouTubeSync from './YouTubeSync';
 import Image from 'next/image';
-import FeatureProductsRadiusTop from "@/assets/Homepage/FeatureProductsRadiusTop.svg";
-import FeatureProductsRadiusBottom from "@/assets/Homepage/FeatureProductsRadiusBottom.svg";
+import FeatureProductsRadiusTop from "/public/assets/Homepage/FeatureProductsRadiusTop.svg";
+import FeatureProductsRadiusBottom from "/public/assets/Homepage/FeatureProductsRadiusBottom.svg";
 
 const HighlightProducts = () => {
     return (
