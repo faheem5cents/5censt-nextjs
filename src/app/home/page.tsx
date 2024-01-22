@@ -16,7 +16,7 @@ import React from "react";
 import DiscoveryCall from "@/components/desktop/DiscoveryCall";
 import { FrequentlyAskedQuestionArray } from "@/constants/FrequentlyAskedQuestionArray";
 
-const home = () => {
+const homePage = () => {
 	return (
 		<div>
 			<TopBanner />
@@ -46,4 +46,4 @@ const home = () => {
 	);
 };
 
-export default home;
+export default homePage;
