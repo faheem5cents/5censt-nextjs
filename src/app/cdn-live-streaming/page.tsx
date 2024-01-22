@@ -1,7 +1,7 @@
 import CDNLiveStreamingPage from '@/components/desktop/CDN/CDNLiveStreamingPage';
 import React from 'react'
 
-const page = () => {
+const CDNLiveStreaming = () => {
   return (
     <div>
         <CDNLiveStreamingPage />
@@ -9,4 +9,4 @@ const page = () => {
   )
 }
 
-export default page;
+export default CDNLiveStreaming;

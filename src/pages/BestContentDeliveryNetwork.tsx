@@ -8,7 +8,7 @@ import HttpPush from "/public/assets/BestCDN/HttpPush.svg";
 import OTTMarketBg from "/public/assets/BestCDN/OTTMarketBg.png";
 import TryForFreeForm from '@/components/desktop/TryForFreeForm';
 
-const BestContentDeliveryNetwork = () => {
+const BestContentDeliveryNetworkPage = () => {
 	return (
 		<>
 			<div className="py-[90px] bg-[#121416]">
@@ -182,4 +182,4 @@ const BestContentDeliveryNetwork = () => {
 	);
 };
 
-export default BestContentDeliveryNetwork;
+export default BestContentDeliveryNetworkPage;

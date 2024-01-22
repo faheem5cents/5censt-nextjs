@@ -1,7 +1,7 @@
 import VSLiveEncodingPage from '@/components/desktop/Video Services/VSLiveEncodingPage';
 import React from 'react'
 
-const page = () => {
+const VSLiveTranscoding = () => {
   return (
     <div>
         <VSLiveEncodingPage />
@@ -9,4 +9,4 @@ const page = () => {
   )
 }
 
-export default page;
+export default VSLiveTranscoding;

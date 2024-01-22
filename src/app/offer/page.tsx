@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import LongRightArrow from "/public/assets/GlobalImages/LongRightArrow.svg";
 
-const page = () => {
+const offer = () => {
     return (
         <>
             <div className={`py-[100px] bg-[url('../assets/Offer/OfferBg.jpg')] bg-cover bg-no-repeat bg-center`}>
@@ -11,7 +11,7 @@ const page = () => {
                     <h1 className='mb-5 text-white text-center text-[86px] font-semibold leading-none'>
                         New <span className='primary-text'>Offers</span><br /> Coming In Soon...
                     </h1>
-                    <h2 className='mb-5 mx-[15%] text-white text-[25px] text-center font-light leading-[1.3em]'>Till then explore our pricing page. They are affordable enough to help you make a choice 😀</h2>
+                    <h2 className='mb-5 mx-[15%] text-white text-[25px] text-center font-light leading-[1.3em]'>Till then explore our pricing offer. They are affordable enough to help you make a choice 😀</h2>
                     <div className='pt-5 flex justify-center items-center'>
                         <Link href="#" className='text-[25px] text-center primary-text leading-none border border-white rounded-[60px] px-10 py-4 transition duration-300 hover:text-white flex items-center gap-3'>Explore Now <Image className='w-[87px]' src={LongRightArrow} alt='Long Right Arrow' /> </Link>
                     </div>
@@ -41,4 +41,4 @@ const page = () => {
     )
 }
 
-export default page;
+export default offer;

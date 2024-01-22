@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-// import RadiusBackground from "/public/assets/HomePage/FeatureProductsRadiusTop.svg";
+import RadiusBackground from "/public/assets/HomePage/FeatureProductsRadiusTop.svg";
 import Logo from "/public/assets/BrandKitAndGuidelines/5centsCDN.svg";
 import BrandKitColor from "/public/assets/BrandKitAndGuidelines/BrandKitColor.svg";
 import TryForFreeForm from "@/components/desktop/TryForFreeForm";
@@ -33,11 +33,11 @@ const BrandKitAndGuidelines = () => {
 						Download Guidelines
 					</Link>
 				</div>
-				{/* <Image
+				<Image
 					src={RadiusBackground}
 					alt="Curved Background"
 					className="w-full absolute bottom-[-1px] transform rotate-0 h-[70px] lg:h-32 "
-				></Image> */}
+				></Image>
 			</div>
 			<div className="boxLayout mx-auto">
 				<div className="BrandKitAndGuidelinesBackground my-10 mx-20 rounded-lg p-20">

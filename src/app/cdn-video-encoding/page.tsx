@@ -1,7 +1,7 @@
 import VSVideoEncodingPage from '@/components/desktop/Video Services/VSVideoEncodingPage';
 import React from 'react'
 
-const page = () => {
+const CDNVideoEncoding = () => {
   return (
     <div>
         <VSVideoEncodingPage />
@@ -9,4 +9,4 @@ const page = () => {
   )
 }
 
-export default page;
+export default CDNVideoEncoding;

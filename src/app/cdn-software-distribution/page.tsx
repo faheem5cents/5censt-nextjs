@@ -42,7 +42,7 @@ const SoftwareDistributionFeatures = [
 ]
 
 
-const page = () => {
+const CDNSoftwareDistribution = () => {
     return (
         <>
             <div className={`px-[30px] py-[90px] flex items-center justify-center md:mt-auto`}>
@@ -120,4 +120,4 @@ const page = () => {
     )
 }
 
-export default page;
+export default CDNSoftwareDistribution;

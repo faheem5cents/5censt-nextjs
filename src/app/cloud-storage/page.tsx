@@ -11,7 +11,7 @@ import TryForFreeForm from '@/components/desktop/TryForFreeForm';
 import Brands from '@/components/desktop/Brands';
 
 
-const page = () => {
+const CloudStorage = () => {
     return (
         <>
             <CDNTopBanner
@@ -33,4 +33,4 @@ const page = () => {
     )
 }
 
-export default page;
+export default CloudStorage;

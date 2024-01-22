@@ -9,7 +9,7 @@ import ClientAndExperience from '@/components/desktop/ClientAndExperience/Client
 import TryForFreeForm from '@/components/desktop/TryForFreeForm';
 import Brands from '@/components/desktop/Brands';
 
-const page = () => {
+const RestreamMultistreamingStreaming = () => {
     return (
         <>
             <CDNTopBanner
@@ -36,4 +36,4 @@ const page = () => {
     )
 }
 
-export default page;
+export default RestreamMultistreamingStreaming;

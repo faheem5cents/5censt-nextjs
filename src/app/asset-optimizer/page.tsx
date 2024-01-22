@@ -6,7 +6,7 @@ import WhatsappSuport from '@/components/desktop/Optimizer/WhatsappSuport';
 import ClientAndExperience from '@/components/desktop/ClientAndExperience/ClientAndExperience';
 import FeatherAsLight from '@/components/desktop/Optimizer/FeatherAsLight';
 
-const page = () => {
+const AssetOptimizer = () => {
     return (
         <>
             <AssetOptimizerTop />
@@ -19,4 +19,4 @@ const page = () => {
     )
 }
 
-export default page;
+export default AssetOptimizer;

@@ -13,7 +13,7 @@ import BrandWhiteAnthymTV from "/public/assets/BrandsLogo/BrandWhiteAnthymTV.svg
 import BrandSLMedia from "/public/assets/BrandsLogo/BrandSLMedia.svg";
 import BrandVivre from "/public/assets/BrandsLogo/BrandVivre.svg";
 
-const page = () => {
+const BestCDNInBrazil = () => {
     return (
         <>
             <div className={`px-[30px] py-[90px] flex items-center justify-center md:mt-auto`}>
@@ -105,4 +105,4 @@ const page = () => {
     )
 }
 
-export default page;
+export default BestCDNInBrazil;

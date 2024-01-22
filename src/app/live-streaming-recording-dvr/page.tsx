@@ -5,7 +5,7 @@ import ProductFeatures from '@/components/desktop/ProductFeatures';
 import CDNTopBanner from '@/components/desktop/TopBanner';
 import TryForFreeForm from '@/components/desktop/TryForFreeForm';
 
-const page = () => {
+const LiveStreamingRecordingDVR = () => {
     return (
         <>
             <CDNTopBanner
@@ -21,4 +21,4 @@ const page = () => {
     )
 }
 
-export default page;
+export default LiveStreamingRecordingDVR;

@@ -6,7 +6,7 @@ import ClientAndExperience from '@/components/desktop/ClientAndExperience/Client
 import TryForFreeForm from '@/components/desktop/TryForFreeForm';
 import Brands from '@/components/desktop/Brands';
 
-const page = () => {
+const CDNBandwidthOverageProtection = () => {
     return (
         <>
             <div className={`px-[30px] py-[90px] flex items-center justify-center md:mt-auto`}>
@@ -74,4 +74,4 @@ const page = () => {
     )
 }
 
-export default page;
+export default CDNBandwidthOverageProtection;

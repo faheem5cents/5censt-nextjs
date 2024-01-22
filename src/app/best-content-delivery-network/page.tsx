@@ -1,12 +1,12 @@
-import BestContentDeliveryNetwork from '@/pages/BestContentDeliveryNetwork';
+import BestContentDeliveryNetworkPage from '@/pages/BestContentDeliveryNetwork';
 import React from 'react'
 
-const page = () => {
+const BestContentDeliveryNetwork = () => {
   return (
     <div>
-        <BestContentDeliveryNetwork />
+        <BestContentDeliveryNetworkPage />
     </div>
   )
 }
 
-export default page;
+export default BestContentDeliveryNetwork;

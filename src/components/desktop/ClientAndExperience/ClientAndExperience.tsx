@@ -5,16 +5,16 @@ import ClientAndExperienceCard from "./ClientAndExperienceCard";
 const ClientAndExperience = ({ description }: { description: string }) => {
 	return (
 		<>
-			<div className="pt-[150px] pb-10 w-full flex flex-col justify-center items-center boxLayout mx-auto">
+			<div className="pt-5 md:pt-[150px] pb-10 w-full flex flex-col justify-center items-center boxLayout mx-auto">
 				<div className="md:max-w-[1140px] flex items-center justify-center">
 					<div className="md:mx-[10%]">
 						<h2
-							className="text-center text-white text-[28px] md:text-[40px] font-bold leading-[1.4] w-4/5 md:w-full mx-auto"
+							className="text-center text-white text-[28px] md:text-[40px] font-bold leading-[1.4] w-[90%] md:w-full mx-auto"
 							dangerouslySetInnerHTML={{ __html: description }}
 						></h2>
 					</div>
 				</div>
-				<div className="w-full grid grid-cols-1 md:grid-cols-3 gap-4 pt-10 px-10 mb:px-0">
+				<div className="w-full grid grid-cols-1 md:grid-cols-3 gap-4 pt-10 px-[10px] md:px-10 mb:px-0">
 					<div className="grid">
 						<ClientAndExperienceCard
 							props={ClientAndExperienceArray[0]}

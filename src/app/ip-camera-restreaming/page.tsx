@@ -9,7 +9,7 @@ import Link from 'next/link';
 import TryForFreeForm from '@/components/desktop/TryForFreeForm';
 
 
-const page = () => {
+const IPCameraRestreaming = () => {
     return (
         <>
             <CDNTopBanner
@@ -74,4 +74,4 @@ const page = () => {
     )
 }
 
-export default page; 
+export default IPCameraRestreaming; 

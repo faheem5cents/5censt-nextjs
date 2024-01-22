@@ -18,15 +18,15 @@
   color: #1c1e204f;
 }
 
-.primary-text{
+.primary-text {
   color: var(--primary);
 }
 
-.primary-bg{
+.primary-bg {
   background: var(--primary);
 }
 
-.primary-border{
+.primary-border {
   border-color: var(--primary);
 }
 
@@ -100,7 +100,8 @@
   transform: scale3d(0.5, 0.5, 1);
 }
 
-.awardWinning .swiper-slide-prev, .awardWinning .swiper-slide-next {
+.awardWinning .swiper-slide-prev,
+.awardWinning .swiper-slide-next {
   opacity: 0.5 !important;
   transform: scale3d(0.7, 0.7, 1) !important;
 }
@@ -111,7 +112,8 @@
 }
 
 
-.awardWinning .swiper-button-next::after, .awardWinning .swiper-button-prev::after {
+.awardWinning .swiper-button-next::after,
+.awardWinning .swiper-button-prev::after {
   color: #ffffff80 !important;
   font-size: 10px !important;
   padding: 20px !important;
@@ -149,4 +151,31 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+/* Schedule a meeting page */
+.ScheduleMeetingBgTop::before {
+  content: "";
+  position: absolute;
+  left: -133px;
+  background: #4FA83D;
+  opacity: 0.4;
+  filter: blur(120px);
+  width: 20%;
+  z-index: 1;
+  height: 30%;
+  top: 0px;
+}
+
+.ScheduleMeetingBgTop::after {
+  content: "";
+  position: absolute;
+  right: -133px;
+  background: #4FA83D;
+  opacity: 0.4;
+  filter: blur(120px);
+  width: 20%;
+  z-index: 1;
+  height: 30%;
+  bottom: 0px;
 }

@@ -589,3 +589,31 @@ export const LiveEventStreamingFAQArray = [
 		description: "Yes, the client needs to enable NDVR",
 	},
 ]
+
+export const BandwidthRolloverFAQArray = [
+	{
+		title:
+			'Is there a minimum BW to get started?',
+		description: "Yes, 1TB per month and that too, in the case of Multistreaming only. Simply buy stream names and multistreaming platforms.",
+	},
+	{
+		title:
+			'What happens when my usage hits 100% of BW purchased?',
+		description: `Under our <a href="#" class='primary-text'>‘Bandwidth overage protection’</a> feature, the services are disabled once you reach the maximum limit of your particular package.`,
+	},
+	{
+		title:
+			'Can I top-up BW at any time?',
+		description: "Yes. You can simply log in to your 5centsCDN client’s account. Go to the dashboard and top up your bandwidth starting from 1 TB.",
+	},
+	{
+		title:
+			'Does my BW rollover or carry forward to the next month?',
+		description: "Add-on BW does rollover. However, your base BW expires at the end of the month regardless of how much you have consumed.",
+	},
+	{
+		title:
+			'What is base BW?',
+		description: "Base BW is the minimum bandwidth that is purchased per month and it starts from 1TB. It expires at the end of each month no matter how much you have consumed.",
+	},
+]

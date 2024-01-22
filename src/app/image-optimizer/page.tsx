@@ -7,7 +7,7 @@ import TryNowForFree from '@/components/desktop/Optimizer/TryNowForFree';
 import WhatsappSuport from '@/components/desktop/Optimizer/WhatsappSuport';
 import ClientAndExperience from '@/components/desktop/ClientAndExperience/ClientAndExperience';
 
-const page = () => {
+const ImageOptimizer = () => {
   return (
     <>
       <ImageOptimizerTop /> 
@@ -21,4 +21,4 @@ const page = () => {
   )
 }
 
-export default page; 
+export default ImageOptimizer; 

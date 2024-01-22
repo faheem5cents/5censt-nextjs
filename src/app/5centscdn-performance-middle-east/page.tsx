@@ -8,7 +8,7 @@ import ClientAndExperience from '@/components/desktop/ClientAndExperience/Client
 import Link from 'next/link';
 
 
-const page = () => {
+const CDNPerformanceMiddleEast = () => {
     return (
         <>
             <div className={`px-[30px] py-[90px] flex items-center justify-center md:mt-auto`}>
@@ -94,4 +94,4 @@ const page = () => {
     )
 }
 
-export default page;
+export default CDNPerformanceMiddleEast;

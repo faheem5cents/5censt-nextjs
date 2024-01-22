@@ -12,7 +12,7 @@ const FrequentlyAskedQuestion = ({
 	FrequentlyAskedQuestionArray: FrequentlyAskedQuestionInterface[];
 }) => {
 	return (
-			<div className="w-[100%] bg-[#1c1e204f] relative py-36">
+			<div className="w-[100%] bg-[#1c1e204f] relative py-5 md:py-36">
 				<Image
 					src={FAQTopBorder}
 					alt="Top Border"

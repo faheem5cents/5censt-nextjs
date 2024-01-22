@@ -2,7 +2,7 @@ import DNSPage from '@/components/desktop/DNS/DNSPage';
 import TrafficDirectorPage from '@/components/desktop/DNS/TrafficDirectorPage';
 import React from 'react'
 
-const page = () => {
+const CDNTrafficDirector = () => {
   return (
     <div>
         <TrafficDirectorPage />
@@ -10,4 +10,4 @@ const page = () => {
   )
 }
 
-export default page;
+export default CDNTrafficDirector;

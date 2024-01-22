@@ -12,7 +12,7 @@ import FrequentlyAskedQuestion from '@/components/desktop/FAQ/FrequentlyAskedQue
 import { LiveEventStreamingFAQArray } from '@/constants/FrequentlyAskedQuestionArray';
 import TryForFreeForm from '@/components/desktop/TryForFreeForm';
 
-export const LiveEventStreaming = [
+const LiveEventStreamingArray = [
     {
         heading: "Church Streaming",
         description: "Broadcasting solution for your house of worship to reach the viewers at the comfort of their living rooms. We help people find Jesus and build a community with uninterrupted and smooth live streaming of the service.",
@@ -25,7 +25,7 @@ export const LiveEventStreaming = [
     },
 ]
 
-const page = () => {
+const LiveEventStreaming = () => {
     return (
         <>
             <CDNTopBanner
@@ -33,7 +33,7 @@ const page = () => {
                 subheading={'Be a part of every event anywhere in the world via live stream'}
                 description={'Don’t let your viewers miss out on anything by giving them the best live streaming experience across devices and multiple platforms, no matter where you are. Even on limited bandwidth, we make sure that the quality of your content remains high definition no matter what.'} />
             <div className='max-w-[1140px] mx-auto'>
-                {LiveEventStreaming.map((item, index) => (
+                {LiveEventStreamingArray.map((item, index) => (
                     <div key={index} className='p-[10px] flex flex-col-reverse md:flex-row items-center'>
                         <div className='w-full md:w-[43%] p-[10px] flex flex-col items-start justify-start'>
                             <h4 className='mb-5 md:text-[20px] lg:text-[22px] primary-text font-semibold leading-none'>{item.heading}</h4>
@@ -76,4 +76,4 @@ const page = () => {
     )
 }
 
-export default page
+export default LiveEventStreaming;

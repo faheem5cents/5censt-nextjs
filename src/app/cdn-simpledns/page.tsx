@@ -1,7 +1,7 @@
 import SimpleDNSPage from '@/components/desktop/DNS/SimpleDNSPage';
 import React from 'react'
 
-const page = () => {
+const CDNSimpleDNS = () => {
   return (
     <div>
         <SimpleDNSPage />
@@ -9,4 +9,4 @@ const page = () => {
   )
 }
 
-export default page;
+export default CDNSimpleDNS;

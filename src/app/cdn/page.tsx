@@ -1,7 +1,7 @@
 import CDNPage from '@/components/desktop/CDN/CDNPage';
 import React from 'react'
 
-const page = () => {
+const CDN = () => {
   return (
     <div>
         <CDNPage />
@@ -9,4 +9,4 @@ const page = () => {
   )
 }
 
-export default page;
+export default CDN;

@@ -1,7 +1,7 @@
 import DNSPage from '@/components/desktop/DNS/DNSPage';
 import React from 'react'
 
-const page = () => {
+const DNS = () => {
   return (
     <div>
         <DNSPage />
@@ -9,4 +9,4 @@ const page = () => {
   )
 }
 
-export default page;
+export default DNS;

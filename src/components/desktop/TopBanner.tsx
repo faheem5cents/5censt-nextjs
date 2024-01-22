@@ -11,10 +11,10 @@ const CDNTopBanner = ({
 }) => { 
     return (
         <>
-            <div className={`py-[90px] flex items-center justify-center md:mt-auto`}>
+            <div className={` py-[30px] md:py-[90px] flex items-center justify-center md:mt-auto`}>
                 <div className="max-w-[1140px]">
                     <div className='w-full flex flex-col flex-wrap items-center'>
-                        <h2 className="text-white text-center text-[2.5rem] md:text-[48px] font-medium md:font-bold py-4 leading-[1.2em] mx-0 lg:mx-[5%]" dangerouslySetInnerHTML={{ __html: heading }}>
+                        <h2 className="text-white text-center text-[2.5rem] md:text-[48px] font-semibold md:font-bold py-4 leading-[1.2em] mx-0 lg:mx-[5%]" dangerouslySetInnerHTML={{ __html: heading }}>
                         </h2>
                         <h3 className='text-white text-[32px] mb-5 leading-[1.4] font-semibold' dangerouslySetInnerHTML={{ __html: subheading }}></h3>
                         <h4 className="text-[#cfcfcf] text-center text-base mb-4 mx-auto lg:mx-[17%]">
